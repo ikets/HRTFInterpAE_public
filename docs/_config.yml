@@ -1,3 +1,4 @@
 markdown: kramdown
 highlighter: rouge
-theme: minima
+# theme: minima
+theme: jekyll-theme-cayman
