@@ -1,7 +1,7 @@
 ---
 title: Demonstration on HRTF Interpolation from Spatially Sparse Measurements Using Autoencoder with Source Position Conditioning
-lead: Yuki Ito, Tomohiko Nakamura, Shoichi Koyama, and Hiroshi Saruwatari (The University of Tokyo)
-# layout: default
+description: Yuki Ito, Tomohiko Nakamura, Shoichi Koyama, and Hiroshi Saruwatari (The University of Tokyo)
+layout: default
 # theme: texture
 ---
 Yuki Ito, Tomohiko Nakamura, Shoichi Koyama, and Hiroshi Saruwatari (The University of Tokyo)
