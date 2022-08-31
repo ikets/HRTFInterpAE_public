@@ -1,4 +1,5 @@
 markdown: kramdown
 highlighter: rouge
 # theme: minima
-theme: jekyll-theme-cayman
+# theme: cayman
+remote_theme: samarsault/texture
