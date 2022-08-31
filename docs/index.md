@@ -1,6 +1,6 @@
 ---
 title: Demonstration on HOGE
-layout: page
+layout: default
 ---
 
 ## Demonstration on HRTF Interpolation from Spatially Sparse Measurements Using Autoencoder with Source Position Conditioning
