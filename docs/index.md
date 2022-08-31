@@ -1,5 +1,6 @@
 ---
-layout: default
+title: Demonstration on HOGE
+# layout: default
 ---
 
 ## Demonstration on HOGE
