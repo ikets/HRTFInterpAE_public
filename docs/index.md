@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Demonstration on HOGE
 Yuki Ito, Tomohiko Nakamura, Shoichi Koyama, and Hiroshi Saruwatari (The University of Tokyo)
 
