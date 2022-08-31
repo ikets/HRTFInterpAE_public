@@ -31,9 +31,23 @@ github_username:  jekyll
 
 # Build settings
 # theme: minima
+# theme: texture
+# remote_theme: samarsault/texture
+# plugins:
+#   - jekyll-feed
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+texture:
+  title: Adam Denisov
+  tagline: Developer. Designer
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    twitter: thelehhman
+    github:  thelehhman
+    linkedIn: in/thelehhman # format: locale/username
 
 # Exclude from processing.
 # The following items will not be processed, by default.
