@@ -1,6 +1,6 @@
 ---
 title: Demonstration on HOGE
-layout: default
+# layout: default
 # theme: texture
 ---
 <h1><div style="text-align: center;">
