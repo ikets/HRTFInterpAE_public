@@ -1,6 +1,6 @@
 ---
 title: Demonstration on HOGE
-# layout: default
+layout: page
 ---
 
 ## Demonstration on HOGE
