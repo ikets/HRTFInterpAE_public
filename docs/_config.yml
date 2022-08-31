@@ -1,32 +1,3 @@
 markdown: kramdown
 highlighter: rouge
 theme: minima
-plugins: ['jekyll/scholar']
-
-scholar:
-  style: apa
-  locale: en
-
-  sort_by: none
-  order: ascending
-
-  group_by: none
-  group_order: ascending
-
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: ""
-
-  replace_strings: true
-  join_strings:    true
-
-  use_raw_bibtex_entry: false
-
-  query: "@*"
-
-  # allow_locale_overrides: false # true
-  # sort_by: year,month
-  # order: descending
-  # source: _bibliography
-  # bibliography_template: bib
-  # bibliography_list_tag: "ul"
