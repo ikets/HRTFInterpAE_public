@@ -1,9 +1,0 @@
-domain: ikets.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-# url: https://ikets.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-# baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
-
-# Build settings
-theme: minima
-# remote_theme: pages-themes/cayman@v0.2.0
-# remote_theme: pages-themes/minimal@v0.2.0
-# remote_theme: pages-themes/midnight@v0.2.0
