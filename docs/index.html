@@ -71,18 +71,12 @@
 <div class="container">
     <div class="row">
         <p class="lead text-left">
-            In this demo page, we show music source separation results using our proposed MRDLA [1] and conventional
-            time-domain audio source separation methods.
-            The mixture and ground truth signals of musical instruments (vocals, bass, drums, and other) are from
-            the MUSDB18 dataset [2].
+            In this demo page, you can listen to binaural signals synthesized with head-related tranfer functions (HRTFs) estimated by our proposed method [1] and regularized-linear-regression(RLR)-based mehod [2] from 9 nearly uniformly sampled measurement positions.
+            The HRTFs on this page belongs to one of the listeners of the HUTUBS dataset [3][4].
+            The source singal is from the MUSDB18-HQ dataset [4].
+            For a better experience, listen with headphones or earphones.
         </p>
-        <div class="w-100"></div>
-        <p class="lead text-left">
-            In addition to the separated audio signals of each method, we provide so-called minus-one audio
-            estimates, which were computed by subtracting the separated audio signals from the mixture audio
-            signals.
-            The minus-one audio estimates were helpful for listeners to check the leakage of the target sources.
-        </p>
+        <!-- <div class="w-100"></div> -->
     </div>
 </div>
 <p><br></p>
@@ -103,152 +97,155 @@
                     </tr>
                 </thead>
                 <tbody align="center" valign="middle">
-                    <tr>
-                        <td><img src="figure/srcpos2d_000_090_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_000_090_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_000_060_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_000_060_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni060_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni060_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni060_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_000_040_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_000_040_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni040_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni040_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni040_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_060_090_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_060_090_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni090_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni090_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni090_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_060_060_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_060_060_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni060_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni060_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni060_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_060_040_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_060_040_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni040_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni040_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni040_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_090_090_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_090_090_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni090_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni090_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni090_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_090_060_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_090_060_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni060_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni060_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni060_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_090_040_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_090_040_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni040_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni040_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni040_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_180_090_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_180_090_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni090_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni090_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni090_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_180_060_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_180_060_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni060_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni060_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni060_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_180_040_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_180_040_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni040_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni040_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni040_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_270_090_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_270_090_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni090_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni090_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni090_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_270_060_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_270_060_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni060_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni060_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni060_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_270_040_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_270_040_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni040_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni040_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni040_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_300_090_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_300_090_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni090_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni090_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni090_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_300_060_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_300_060_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni060_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni060_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni060_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        <tr>
-                        <td><img src="figure/srcpos2d_300_040_top.png" width="192.71" height="161.57" /></td>
-                        <td><img src="figure/srcpos2d_300_040_side.png" width="192.71" height="161.57" /></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni040_gt.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni040_rlr.wav"></audio></td>
-                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni040_420428.wav"></audio></td>
-                        </tr>
-                        <!--  -->
-                        
+            <!--  -->
+            <tr>
+                <td>azimuth: 0 deg<br><img src="figure/srcpos2d_000_090_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 0 deg<br><img src="figure/srcpos2d_000_090_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 0 deg<br><img src="figure/srcpos2d_000_060_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 30 deg<br><img src="figure/srcpos2d_000_060_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni060_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni060_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni060_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 0 deg<br><img src="figure/srcpos2d_000_040_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 50 deg<br><img src="figure/srcpos2d_000_040_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni040_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni040_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni040_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 60 deg<br><img src="figure/srcpos2d_060_090_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 0 deg<br><img src="figure/srcpos2d_060_090_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni090_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni090_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni090_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 60 deg<br><img src="figure/srcpos2d_060_060_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 30 deg<br><img src="figure/srcpos2d_060_060_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni060_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni060_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni060_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 60 deg<br><img src="figure/srcpos2d_060_040_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 50 deg<br><img src="figure/srcpos2d_060_040_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni040_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni040_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni040_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 90 deg<br><img src="figure/srcpos2d_090_090_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 0 deg<br><img src="figure/srcpos2d_090_090_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni090_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni090_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni090_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 90 deg<br><img src="figure/srcpos2d_090_060_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 30 deg<br><img src="figure/srcpos2d_090_060_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni060_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni060_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni060_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 90 deg<br><img src="figure/srcpos2d_090_040_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 50 deg<br><img src="figure/srcpos2d_090_040_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni040_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni040_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni040_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 180 deg<br><img src="figure/srcpos2d_180_090_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 0 deg<br><img src="figure/srcpos2d_180_090_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni090_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni090_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni090_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 180 deg<br><img src="figure/srcpos2d_180_060_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 30 deg<br><img src="figure/srcpos2d_180_060_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni060_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni060_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni060_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 180 deg<br><img src="figure/srcpos2d_180_040_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 50 deg<br><img src="figure/srcpos2d_180_040_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni040_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni040_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni040_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 270 deg<br><img src="figure/srcpos2d_270_090_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 0 deg<br><img src="figure/srcpos2d_270_090_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni090_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni090_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni090_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 270 deg<br><img src="figure/srcpos2d_270_060_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 30 deg<br><img src="figure/srcpos2d_270_060_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni060_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni060_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni060_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 270 deg<br><img src="figure/srcpos2d_270_040_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 50 deg<br><img src="figure/srcpos2d_270_040_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni040_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni040_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni040_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 300 deg<br><img src="figure/srcpos2d_300_090_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 0 deg<br><img src="figure/srcpos2d_300_090_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni090_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni090_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni090_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 300 deg<br><img src="figure/srcpos2d_300_060_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 30 deg<br><img src="figure/srcpos2d_300_060_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni060_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni060_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni060_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                <tr>
+                <td>azimuth: 300 deg<br><img src="figure/srcpos2d_300_040_top.png" width="192.71" height="161.57" /></td>
+                <td>elevation: 50 deg<br><img src="figure/srcpos2d_300_040_side.png" width="192.71" height="161.57" /></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni040_gt.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni040_rlr.wav"></audio></td>
+                <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni040_420428.wav"></audio></td>
+                </tr>
+                <!--  -->
+                
 
+                        
+            <!--  -->
                 </tbody>
             </table>
             <div class="col-1">
@@ -260,7 +257,7 @@
 <div class="container">
     <h1>References</h1>
     <div>
-        [1] <ins>Yuki Ito</ins>, Tomohiko Nakamura, Shoichi Koyama, and Hiroshi Saruwatari, <strong>“Head-Related Transfer Function Interpolation from Spatially Sparse Measurements Using Autoencoder with Source Position Conditioning,”</strong> in <em>Proc. International Workshop on Acoustic Signal Enhancement (IWAENC)</em>, Sep., 2022. (to appear) <a href="https://arxiv.org/abs/2207.10967">[PDF]</a><br>
+        [1] Yuki Ito, Tomohiko Nakamura, Shoichi Koyama, and Hiroshi Saruwatari, <strong>“Head-Related Transfer Function Interpolation from Spatially Sparse Measurements Using Autoencoder with Source Position Conditioning,”</strong> in <em>Proc. International Workshop on Acoustic Signal Enhancement (IWAENC)</em>, Sep., 2022. (to appear) <a href="https://arxiv.org/abs/2207.10967">[PDF]</a><br>
 
         [2] Ramani Duraiswami, Dmitry N. Zotkin, and Nail A. Gumerov, “Interpolation and range extrapolation of HRTFs [head related transfer functions],” in <em>Proc. IEEE Int. Conf. Acoust., Speech, Signal Process. (ICASSP)</em>, 2004, vol. 4, pp. 45–48.<br>
 
