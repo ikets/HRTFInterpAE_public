@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+.sampleTable {
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+.main-content {
+    max-width: 75%;
+    }
+.main-content {
+    max-width: 75%;
+    }

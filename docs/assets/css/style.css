@@ -1,14 +1,301 @@
----
----
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
 
-@import "{{ site.theme }}";
-.sampleTable {
-        border-collapse: collapse;
-        table-layout: fixed;
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% Free To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+ html{
+    font-size: 16px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pad-top {
+    padding-top: 100px;
+}
+
+.pad-top-sm {
+    padding-top: 30px;
+}
+
+.head-glow {
+    background-color: rgba(66, 139, 202, 0.8);
+    color: #fff;
+    padding: 0px 5px 0px 20px;
+    margin: 0px 15px 0px 8px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.sub-hr {
+    border: 1px solid rgba(184, 94, 255, 1);
+    width: 10%!important;
+}
+
+.min-set {
+    min-height: 100px;
+}
+
+.img-set {
+    height: 100px;
+    margin-top: 10px;
+}
+/* =============================================================
+   NAV BAR STYLES
+ ============================================================ */
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    padding: 17px 12px;
+}
+
+/* =============================================================
+  HOME SECTION STYLES
+ ============================================================ */
+#home-sec {
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 300px;
+}
+
+#home-sec .overlay {
+    /* background-color: rgba(44, 46, 53, 0.75); */
+    background-color: rgba(0, 0, 0, 0.1);
+    min-height: 300px;
+}
+
+#home-sec h1 {
+    line-height: 80px;
+    font-size: 45px;
+    font-weight: 900;
+    /* color: #fff; */
+}
+
+#home-sec mark {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0px 5px 0px 20px;
+    margin: 0px 15px 0px 8px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.home-p {
+    line-height: 30px;
+    /* color: #E0E0E0; */
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-home {
+    /* background-color: rgba(35, 37, 39, 0.8); */
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+
+.img-home-side {
+    padding-left: 30px;
+    padding-top: 180px;
+    text-align: center;
+    /* color: #fff; */
+}
+
+/* =============================================================
+  FEATURES SECTION STYLES 
+ ============================================================ */
+#features-sec h3 {
+    color: #666565;
+}
+
+#features-sec hr {
+    border: 1px solid rgba(184, 94, 255, 1);
+    width: 30%;
+}
+
+#features-sec p {
+    line-height: 30px;
+    color: #9C9C9C;
+}
+/*  IMAGE STYLE   */
+.main-img {
+    content: url('../images/bulb-yellow.png'); /*YELLOW IMAGE URL  */
+    cursor: pointer;
+    height: 250px;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+    /*  IMAGE STYLE ON HOVER - WHICH CHANGE THE IMAGE TO bulb-white.png   */
+    .main-img:hover {
+        content: url('../images/bulb-white.png'); /*WHITE IMAGE URL ON HOVER */
+        cursor: pointer;
     }
-.main-content {
-    max-width: 75%;
+
+
+/* =============================================================
+  SKILL SECTION STYLES 
+ ============================================================ */
+#skill-sec h4 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+#skill-sec {
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    #skill-sec .overlay {
+        padding-top: 50px;
+        background: url(../images/15.png);
+        min-height: 250px;
+        background-color: rgba(5, 5, 5, 0.45);
     }
-.main-content {
-    max-width: 75%;
+/* =============================================================
+  ADVANCE SECTION STYLES 
+ ============================================================ */
+#advance-sec h3 {
+    color: #666565;
+}
+
+#advance-sec p {
+    line-height: 30px;
+    color: #9C9C9C;
+}
+
+/* =============================================================
+  JUST SECTION STYLES 
+ ============================================================ */
+#just-sec {
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    font-weight: 900;
+}
+
+    #just-sec .overlay {
+        background: rgba(72, 104, 233, 0.95);
+        padding: 50px 30px;
     }
+/*==========================================
+   GALLERY STYLES
+    =====================================================*/
+
+#port-folio {
+    padding-top: 10px;
+    min-height: 550px;
+}
+
+.portfolio-item {
+    border: 2px solid #e4e4e4;
+    margin: 25px 5px;
+    display: inline-block;
+}
+
+
+
+    .portfolio-item img:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.5, 1.5);
+        -ms-transform: scale(1.5, 1.5);
+        transform: scale(1.5, 1.5);
+        transition-duration: 0.3s;
+        -webkit-transition-duration: 0.3s; /* Safari */
+        z-index: 1;
+    }
+
+/*==========================================
+   GALLERY/ PORTFOLIO FILTER STYLES
+    =====================================================*/
+ul#filters {
+    padding: 0px;
+}
+
+#filters {
+    margin: 3% 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#filters li {
+    display: -webkit-inline-box;
+    font-size: 1rem;
+}
+
+#filters li span {
+    display: block;
+    padding: 5px 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+#port-folio .portfolio-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    display: none;
+}
+
+/*==========================================
+   LOCATION STYLES
+    =====================================================*/
+#location-sec {
+    background-color: rgba(149, 166, 248,1);
+    color: #fff;
+}
+
+    #location-sec h3 {
+        color: #000;
+        font-weight: 900;
+    }
+

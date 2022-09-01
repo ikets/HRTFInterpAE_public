@@ -1,0 +1,276 @@
+
+<!doctype html>
+<html>
+    <head>
+        <!-- BOOTSTRAP CORE STYLE  -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- GOOGLE FONT -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' crossorigin="anonymous" />
+
+        <!-- BOOTSTRAP JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+        <!-- CUSTOM STYLE CSS -->
+        <link href="https://github.com/ikets/HRTFInterpAE_public/tree/main/docs/assets/css" rel="stylesheet" />
+        <!-- <link href="https://tomohikonakamura.github.io/Tomohiko-Nakamura/assets/css/style.css" rel="stylesheet" /> -->
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+        <!-- Page description -->
+        
+
+        <!-- Page keywords -->
+        
+
+        <!-- Page author -->
+        
+            <meta name="author" content="Yuki Ito" />
+        
+
+        <!-- Site title -->
+        
+        
+            <title>Demonstration on Music Source Separation Using MRDLA - Tomohiko Nakamura</title>
+        
+        
+
+        
+            
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-9EPRVMYY0Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9EPRVMYY0Z');
+</script> -->
+            
+        
+
+    </head>
+    <body>
+
+        <section class="jumbotron text-center">
+    <div class="container">
+        
+            <h1 class="jumbotron-heading">Demonstration on HRTF Interpolation from Spatially Sparse Measurements Using Autoencoder with Source Position Conditioning</h1>
+        
+        
+            <p class="lead">
+                Yuki Ito, Tomohiko Nakamura, Shoichi Koyama, and Hiroshi Saruwatari (The University of Tokyo)
+            </p>
+        
+    </div>
+</section>
+        
+            <p><link rel="stylesheet" type="text/css" href="style.css"></p>
+<div class="container">
+    <div class="row">
+        <p class="lead text-left">
+            In this demo page, we show music source separation results using our proposed MRDLA [1] and conventional
+            time-domain audio source separation methods.
+            The mixture and ground truth signals of musical instruments (vocals, bass, drums, and other) are from
+            the MUSDB18 dataset [2].
+        </p>
+        <div class="w-100"></div>
+        <p class="lead text-left">
+            In addition to the separated audio signals of each method, we provide so-called minus-one audio
+            estimates, which were computed by subtracting the separated audio signals from the mixture audio
+            signals.
+            The minus-one audio estimates were helpful for listeners to check the leakage of the target sources.
+        </p>
+    </div>
+</div>
+<p><br></p>
+<div class="album">
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-1">
+            </div>
+            <table class="table light col-10">
+            <!-- <table class="table light col-10" style="table-layout: fixed;"></table> -->
+                <thead align="center">
+                    <tr >
+                        <th colspan="2">Source Position</th>
+                        <!-- <th> </th> -->
+                        <th>Ground Truth</th>
+                        <th>RLR-based method [2]</th>
+                        <th>Proposed [1]</th>
+                    </tr>
+                </thead>
+                <tbody align="center" valign="middle">
+                    <tr>
+                        <td><img src="figure/srcpos2d_000_090_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_000_090_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_000_060_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_000_060_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni060_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni060_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni060_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_000_040_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_000_040_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni040_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni040_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim000_zeni040_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_060_090_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_060_090_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni090_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni090_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni090_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_060_060_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_060_060_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni060_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni060_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni060_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_060_040_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_060_040_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni040_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni040_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim060_zeni040_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_090_090_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_090_090_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni090_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni090_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni090_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_090_060_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_090_060_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni060_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni060_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni060_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_090_040_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_090_040_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni040_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni040_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim090_zeni040_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_180_090_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_180_090_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni090_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni090_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni090_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_180_060_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_180_060_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni060_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni060_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni060_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_180_040_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_180_040_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni040_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni040_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim180_zeni040_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_270_090_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_270_090_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni090_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni090_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni090_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_270_060_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_270_060_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni060_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni060_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni060_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_270_040_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_270_040_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni040_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni040_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim270_zeni040_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_300_090_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_300_090_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni090_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni090_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni090_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_300_060_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_300_060_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni060_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni060_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni060_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        <tr>
+                        <td><img src="figure/srcpos2d_300_040_top.png" width="192.71" height="161.57" /></td>
+                        <td><img src="figure/srcpos2d_300_040_side.png" width="192.71" height="161.57" /></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni040_gt.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni040_rlr.wav"></audio></td>
+                        <td><audio controls preload="meatadata" src="audio/sub4_azim300_zeni040_420428.wav"></audio></td>
+                        </tr>
+                        <!--  -->
+                        
+
+                </tbody>
+            </table>
+            <div class="col-1">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>References</h1>
+    <div>
+        [1] <ins>Yuki Ito</ins>, Tomohiko Nakamura, Shoichi Koyama, and Hiroshi Saruwatari, <strong>“Head-Related Transfer Function Interpolation from Spatially Sparse Measurements Using Autoencoder with Source Position Conditioning,”</strong> in <em>Proc. International Workshop on Acoustic Signal Enhancement (IWAENC)</em>, Sep., 2022. (to appear) <a href="https://arxiv.org/abs/2207.10967">[PDF]</a><br>
+
+        [2] Ramani Duraiswami, Dmitry N. Zotkin, and Nail A. Gumerov, “Interpolation and range extrapolation of HRTFs [head related transfer functions],” in <em>Proc. IEEE Int. Conf. Acoust., Speech, Signal Process. (ICASSP)</em>, 2004, vol. 4, pp. 45–48.<br>
+
+        [3] Fabian Brinkmann, Manoj Dinakaran, Robert Pelzer, Peter Grosche,  Daniel Voss, and Stefan Weinzierl, “A cross-evaluated database of measured and simulated HRTFs including 3D head meshes, anthropometric features, and headphone impulse responses”, <em>J. Audio Eng. Soc.</em>, vol. 67, no. 9, pp. 705–718, 2019.<br>
+
+        [4] Fabian Brinkmann, Manoj Dinakaran, Robert Pelzer, Jan Joschka Wohlgemuth, Fabian Seipel, Daniel Voss, Peter Grosche, Stefan Weinzierl, “The HUTUBS head-related transfer function (HRTF) database,” 2019, url: http://dx.doi.org/10.14279/depositonce-8487 (accessed May 6, 2022).<br>
+
+        [5] Zafar Rafii, Antoine Liutkus, Fabian-Robert Stöter, Stylianos Ioannis Mimilakis, and Rachel Bittner, “MUSDB18-HQ - an uncompressed version of MUSDB18,” 2019, url: https://doi.org/10.5281/zenodo.3338373 (accessed Aug. 30, 2022).
+    </div>
+</div>
+        
+    </body>
+</html>
