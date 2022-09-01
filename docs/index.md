@@ -6,6 +6,10 @@ layout: default_cayman
 
 In this demo page, we show music source separation results using our proposed MRDLA [1] and conventional time-domain audio source separation methods. The mixture and ground truth signals of musical instruments (vocals, bass, drums, and other) are from the MUSDB18 dataset [2].
 
+<audio controls src=".audio\sub4_azim000_zeni090_gt.wav"></audio>
+
+
+
 ## References
 [1] Yuki Ito, Tomohiko Nakamura, Shoichi Koyama, and Hiroshi Saruwatari, **"Head-Related Transfer Function Interpolation from Spatially Sparse Measurements Using Autoencoder with Source Position Conditioning,"** in *Proc. International Workshop on Acoustic Signal Enhancement (IWAENC)*, Sep., 2022. (to appear) [[PDF]](https://arxiv.org/abs/2207.10967)
 
@@ -13,6 +17,6 @@ In this demo page, we show music source separation results using our proposed MR
 
 [3] Fabian Brinkmann, Manoj Dinakaran, Robert Pelzer, Peter Grosche,  Daniel Voss, and Stefan Weinzierl, **"A cross-evaluated database of measured and simulated HRTFs including 3D head meshes, anthropometric features, and headphone impulse responses"**, *J. Audio Eng. Soc.*, vol. 67, no. 9, pp. 705–718, 2019.
 
-[4] Fabian Brinkmann, Manoj Dinakaran, Robert Pelzer, Jan Joschka Wohlgemuth, Fabian Seipel, Daniel Voss, Peter Grosche, Stefan Weinzierl, **"The {HUTUBS} head-related transfer function ({HRTF}) database,"** doi: http://dx.doi.org/10.14279/depositonce-8487 (accessed May 6, 2022)
+[4] Fabian Brinkmann, Manoj Dinakaran, Robert Pelzer, Jan Joschka Wohlgemuth, Fabian Seipel, Daniel Voss, Peter Grosche, Stefan Weinzierl, **"The HUTUBS head-related transfer function (HRTF) database,"** 2019, url: http://dx.doi.org/10.14279/depositonce-8487 (accessed May 6, 2022).
 
-[5] Zafar Rafii, Antoine Liutkus, Fabian-Robert Stöter, Stylianos Ioannis Mimilakis, and Rachel Bittner, **"MUSDB18-HQ - an uncompressed version of MUSDB18,"** 2019.
+[5] Zafar Rafii, Antoine Liutkus, Fabian-Robert Stöter, Stylianos Ioannis Mimilakis, and Rachel Bittner, **"MUSDB18-HQ - an uncompressed version of MUSDB18,"** 2019, url: https://doi.org/10.5281/zenodo.3338373 (accessed Aug. 30, 2022).
