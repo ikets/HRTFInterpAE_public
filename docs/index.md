@@ -10,7 +10,7 @@ In this demo page, we show music source separation results using our proposed MR
 | ---- | ---- | ---- | ---- | ---- |
 |  <img src="figure/srcpos2d_000_090_top.png" width="200" height="200"> | <img src="figure/srcpos2d_000_090_side.png" width="200" height="200"> | <audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_gt.wav"></audio>  | <audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_rlr.wav"></audio> | <audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_420428.wav"></audio> | -->
 
-<table class="table light col-10" style="table-layout: fixed;">
+<table class="sampleTable" style="table-layout: fixed;">
   <thead>
     <tr>
       <th>Source Position</th>

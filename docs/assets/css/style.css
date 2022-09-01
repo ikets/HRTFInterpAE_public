@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+.sampleTable {
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
