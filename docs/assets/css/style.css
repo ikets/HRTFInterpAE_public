@@ -6,3 +6,6 @@
         border-collapse: collapse;
         table-layout: fixed;
     }
+.inner {
+    max-width: 75%;
+    }
