@@ -6,7 +6,7 @@ layout: default_cayman
 
 In this demo page, we show music source separation results using our proposed MRDLA [1] and conventional time-domain audio source separation methods. The mixture and ground truth signals of musical instruments (vocals, bass, drums, and other) are from the MUSDB18 dataset [2].
 
-<audio controls src="https://github.com/ikets/HRTFInerpAE_public/tree/main/docs/audio/sub4_azim000_zeni090_gt.wav"></audio>
+<audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_gt.wav"></audio>
 
 
 
