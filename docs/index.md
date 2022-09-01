@@ -8,7 +8,7 @@ In this demo page, we show music source separation results using our proposed MR
 
 |  Source Position  |  Ground Truth | RLR-based method [2] | Proposed [1] |
 | ---- | ---- | ---- | ---- |
-|  <img src="figure/srcpos2d_000_090_top.png"> <img src="figure/srcpos2d_000_090_top.png"> |  <audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_gt.wav"></audio>  | <audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_rlr.wav"></audio> | <audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_420428.wav"></audio> |
+|  <img src="figure/srcpos2d_000_090_top.png"> <img src="figure/srcpos2d_000_090_side.png"> |  <audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_gt.wav"></audio>  | <audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_rlr.wav"></audio> | <audio controls preload="meatadata" src="audio/sub4_azim000_zeni090_420428.wav"></audio> |
 
 
 
