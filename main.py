@@ -287,7 +287,7 @@ if __name__ == "__main__":
     print("=====================")
 
     #--------- Estimate from B' = 9, 16,..., 196 pts (spherical t-design) ---------
-    t_list = range(2,13) # t = 2, ..., 13
+    t_list = range(2,13+1) # t = 2, ..., 13
 
     loss_test = np.zeros((len(t_list),1))
     for t in t_list:
