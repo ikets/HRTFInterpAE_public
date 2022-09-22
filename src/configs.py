@@ -15,7 +15,7 @@ config_0 = {
     'num_sub': 77, # sub for train
     'batch_size': 32, # set < VRAM(GB)/0.3
     'epochs': 1000,
-    'save_frequency': 400,
+    'save_frequency': 1500,
     'learning_rate': 0.001,
     'loss_weights': {
                         'lsd': 1,
