@@ -21,11 +21,10 @@ config:
  'num_gpus': 1,
  'num_pts': 440,
  'num_sub': 77,
- 'save_frequency': 400,
+ 'save_frequency': 1500,
  'use_itd_gt': True}
 =====================
 artifacts_dir: outputs/model_0
-Train
 ---------------------
 train data's mean:-0.3186933398246765, std:0.568795919418335
 =====================
@@ -190,12 +189,12 @@ HRTF_Interp_AE(
 Train model.
 number of trainable parameters: 5680000
 ---------------------
-logdir: outputs/model_0/logs/AE_0918_2219
+logdir: outputs/model_0/logs/AE_0922_1127
 ---------------------
 num_sub: 77, batch_size: 32, num_batch:3.0
 [W Copy.cpp:240] Warning: Casting complex values to real discards the imaginary part (function operator())
 epoch 1 (train) 
-cdintra_z:0.2083    loss:30.83    lsd:30.62        (00:00:12)
+cdintra_z:0.2083    loss:30.83    lsd:30.62        (00:00:11)
 ----------
 epoch 1 (valid)
 cdintra_z:0.08757    loss:17.27    lsd:17.27
@@ -205,7 +204,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 2 (train) 
-cdintra_z:0.07332    loss:15.13    lsd:15.06        (00:00:11)
+cdintra_z:0.07332    loss:15.13    lsd:15.06        (00:00:10)
 ----------
 epoch 2 (valid)
 cdintra_z:0.05234    loss:11.65    lsd:11.65
@@ -215,7 +214,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 3 (train) 
-cdintra_z:0.04728    loss:10.76    lsd:10.71        (00:00:11)
+cdintra_z:0.04728    loss:10.76    lsd:10.71        (00:00:10)
 ----------
 epoch 3 (valid)
 cdintra_z:0.03847    loss:9.446    lsd:9.446
@@ -285,7 +284,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 10 (train) 
-cdintra_z:0.01587    loss:5.95    lsd:5.934        (00:00:11)
+cdintra_z:0.01587    loss:5.95    lsd:5.934        (00:00:10)
 ----------
 epoch 10 (valid)
 cdintra_z:0.01493    loss:5.844    lsd:5.844
@@ -295,7 +294,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 11 (train) 
-cdintra_z:0.01458    loss:5.83    lsd:5.815        (00:00:11)
+cdintra_z:0.01458    loss:5.83    lsd:5.815        (00:00:10)
 ----------
 epoch 11 (valid)
 cdintra_z:0.01379    loss:5.74    lsd:5.74
@@ -315,7 +314,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 13 (train) 
-cdintra_z:0.01262    loss:5.652    lsd:5.64        (00:00:11)
+cdintra_z:0.01262    loss:5.652    lsd:5.64        (00:00:10)
 ----------
 epoch 13 (valid)
 cdintra_z:0.01204    loss:5.594    lsd:5.594
@@ -405,7 +404,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 22 (train) 
-cdintra_z:0.008051    loss:5.348    lsd:5.34        (00:00:11)
+cdintra_z:0.008051    loss:5.348    lsd:5.34        (00:00:10)
 ----------
 epoch 22 (valid)
 cdintra_z:0.007857    loss:5.341    lsd:5.341
@@ -663,7 +662,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 50 (train) 
-cdintra_z:0.0182    loss:4.859    lsd:4.84        (00:00:11)
+cdintra_z:0.0182    loss:4.859    lsd:4.84        (00:00:10)
 ----------
 epoch 50 (valid)
 cdintra_z:0.01862    loss:5.017    lsd:5.017
@@ -683,7 +682,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 52 (train) 
-cdintra_z:0.01912    loss:4.77    lsd:4.751        (00:00:11)
+cdintra_z:0.01912    loss:4.77    lsd:4.751        (00:00:10)
 ----------
 epoch 52 (valid)
 cdintra_z:0.01878    loss:4.96    lsd:4.96
@@ -805,7 +804,7 @@ cdintra_z:0.01458    loss:4.943    lsd:4.943
 Not saving model! Last saved: 61
 ---------------------
 epoch 66 (train) 
-cdintra_z:0.01522    loss:4.797    lsd:4.782        (00:00:11)
+cdintra_z:0.01522    loss:4.797    lsd:4.782        (00:00:10)
 ----------
 epoch 66 (valid)
 cdintra_z:0.01468    loss:4.967    lsd:4.967
@@ -821,7 +820,7 @@ cdintra_z:0.01539    loss:4.887    lsd:4.887
 Not saving model! Last saved: 61
 ---------------------
 epoch 68 (train) 
-cdintra_z:0.01617    loss:4.723    lsd:4.706        (00:00:11)
+cdintra_z:0.01617    loss:4.723    lsd:4.706        (00:00:10)
 ----------
 epoch 68 (valid)
 cdintra_z:0.01649    loss:4.933    lsd:4.933
@@ -829,7 +828,7 @@ cdintra_z:0.01649    loss:4.933    lsd:4.933
 Not saving model! Last saved: 61
 ---------------------
 epoch 69 (train) 
-cdintra_z:0.01748    loss:4.704    lsd:4.687        (00:00:11)
+cdintra_z:0.01748    loss:4.704    lsd:4.687        (00:00:10)
 ----------
 epoch 69 (valid)
 cdintra_z:0.01787    loss:4.905    lsd:4.905
@@ -871,7 +870,7 @@ cdintra_z:0.01805    loss:4.824    lsd:4.824
 Not saving model! Last saved: 70
 ---------------------
 epoch 74 (train) 
-cdintra_z:0.01802    loss:4.636    lsd:4.618        (00:00:11)
+cdintra_z:0.01802    loss:4.636    lsd:4.618        (00:00:10)
 ----------
 epoch 74 (valid)
 cdintra_z:0.01694    loss:4.899    lsd:4.899
@@ -955,7 +954,7 @@ cdintra_z:0.01778    loss:4.803    lsd:4.803
 Not saving model! Last saved: 82
 ---------------------
 epoch 84 (train) 
-cdintra_z:0.01855    loss:4.563    lsd:4.544        (00:00:11)
+cdintra_z:0.01855    loss:4.563    lsd:4.544        (00:00:10)
 ----------
 epoch 84 (valid)
 cdintra_z:0.01852    loss:4.753    lsd:4.753
@@ -965,7 +964,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 85 (train) 
-cdintra_z:0.01919    loss:4.524    lsd:4.505        (00:00:11)
+cdintra_z:0.01919    loss:4.524    lsd:4.505        (00:00:10)
 ----------
 epoch 85 (valid)
 cdintra_z:0.01944    loss:4.757    lsd:4.757
@@ -981,7 +980,7 @@ cdintra_z:0.0196    loss:4.84    lsd:4.84
 Not saving model! Last saved: 84
 ---------------------
 epoch 87 (train) 
-cdintra_z:0.01944    loss:4.583    lsd:4.564        (00:00:11)
+cdintra_z:0.01944    loss:4.583    lsd:4.564        (00:00:10)
 ----------
 epoch 87 (valid)
 cdintra_z:0.01851    loss:4.872    lsd:4.872
@@ -1045,7 +1044,7 @@ cdintra_z:0.02172    loss:4.978    lsd:4.978
 Not saving model! Last saved: 84
 ---------------------
 epoch 95 (train) 
-cdintra_z:0.0221    loss:4.663    lsd:4.641        (00:00:11)
+cdintra_z:0.0221    loss:4.663    lsd:4.641        (00:00:10)
 ----------
 epoch 95 (valid)
 cdintra_z:0.02175    loss:4.869    lsd:4.869
@@ -1053,7 +1052,7 @@ cdintra_z:0.02175    loss:4.869    lsd:4.869
 Not saving model! Last saved: 84
 ---------------------
 epoch 96 (train) 
-cdintra_z:0.02164    loss:4.58    lsd:4.559        (00:00:11)
+cdintra_z:0.02164    loss:4.58    lsd:4.559        (00:00:10)
 ----------
 epoch 96 (valid)
 cdintra_z:0.02106    loss:4.755    lsd:4.755
@@ -1115,7 +1114,7 @@ cdintra_z:0.02359    loss:4.713    lsd:4.713
 Not saving model! Last saved: 101
 ---------------------
 epoch 103 (train) 
-cdintra_z:0.02333    loss:4.445    lsd:4.422        (00:00:11)
+cdintra_z:0.02333    loss:4.445    lsd:4.422        (00:00:10)
 ----------
 epoch 103 (valid)
 cdintra_z:0.02304    loss:4.682    lsd:4.682
@@ -1123,7 +1122,7 @@ cdintra_z:0.02304    loss:4.682    lsd:4.682
 Not saving model! Last saved: 101
 ---------------------
 epoch 104 (train) 
-cdintra_z:0.02266    loss:4.427    lsd:4.405        (00:00:11)
+cdintra_z:0.02266    loss:4.427    lsd:4.405        (00:00:10)
 ----------
 epoch 104 (valid)
 cdintra_z:0.02243    loss:4.656    lsd:4.656
@@ -1141,7 +1140,7 @@ cdintra_z:0.02239    loss:4.664    lsd:4.664
 Not saving model! Last saved: 104
 ---------------------
 epoch 106 (train) 
-cdintra_z:0.0227    loss:4.431    lsd:4.408        (00:00:11)
+cdintra_z:0.0227    loss:4.431    lsd:4.408        (00:00:10)
 ----------
 epoch 106 (valid)
 cdintra_z:0.02251    loss:4.703    lsd:4.703
@@ -1289,7 +1288,7 @@ cdintra_z:0.02148    loss:4.703    lsd:4.703
 Not saving model! Last saved: 110
 ---------------------
 epoch 124 (train) 
-cdintra_z:0.02202    loss:4.538    lsd:4.516        (00:00:11)
+cdintra_z:0.02202    loss:4.538    lsd:4.516        (00:00:10)
 ----------
 epoch 124 (valid)
 cdintra_z:0.02175    loss:4.811    lsd:4.811
@@ -1331,7 +1330,7 @@ cdintra_z:0.02521    loss:4.673    lsd:4.673
 Not saving model! Last saved: 126
 ---------------------
 epoch 129 (train) 
-cdintra_z:0.02563    loss:4.382    lsd:4.356        (00:00:11)
+cdintra_z:0.02563    loss:4.382    lsd:4.356        (00:00:10)
 ----------
 epoch 129 (valid)
 cdintra_z:0.02586    loss:4.65    lsd:4.65
@@ -1407,7 +1406,7 @@ cdintra_z:0.02476    loss:4.659    lsd:4.659
 Not saving model! Last saved: 136
 ---------------------
 epoch 138 (train) 
-cdintra_z:0.0258    loss:4.368    lsd:4.342        (00:00:11)
+cdintra_z:0.0258    loss:4.368    lsd:4.342        (00:00:10)
 ----------
 epoch 138 (valid)
 cdintra_z:0.02632    loss:4.577    lsd:4.577
@@ -1453,7 +1452,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 143 (train) 
-cdintra_z:0.02652    loss:4.256    lsd:4.229        (00:00:11)
+cdintra_z:0.02652    loss:4.256    lsd:4.229        (00:00:10)
 ----------
 epoch 143 (valid)
 cdintra_z:0.02609    loss:4.541    lsd:4.541
@@ -1519,7 +1518,7 @@ cdintra_z:0.02654    loss:4.524    lsd:4.524
 Not saving model! Last saved: 147
 ---------------------
 epoch 151 (train) 
-cdintra_z:0.02665    loss:4.25    lsd:4.224        (00:00:11)
+cdintra_z:0.02665    loss:4.25    lsd:4.224        (00:00:10)
 ----------
 epoch 151 (valid)
 cdintra_z:0.02603    loss:4.584    lsd:4.584
@@ -1591,7 +1590,7 @@ cdintra_z:0.0254    loss:4.636    lsd:4.636
 Not saving model! Last saved: 147
 ---------------------
 epoch 160 (train) 
-cdintra_z:0.02624    loss:4.308    lsd:4.282        (00:00:11)
+cdintra_z:0.02624    loss:4.308    lsd:4.282        (00:00:10)
 ----------
 epoch 160 (valid)
 cdintra_z:0.02609    loss:4.588    lsd:4.588
@@ -1691,7 +1690,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 172 (train) 
-cdintra_z:0.02844    loss:4.156    lsd:4.127        (00:00:11)
+cdintra_z:0.02844    loss:4.156    lsd:4.127        (00:00:10)
 ----------
 epoch 172 (valid)
 cdintra_z:0.02792    loss:4.496    lsd:4.496
@@ -1699,7 +1698,7 @@ cdintra_z:0.02792    loss:4.496    lsd:4.496
 Not saving model! Last saved: 171
 ---------------------
 epoch 173 (train) 
-cdintra_z:0.02837    loss:4.157    lsd:4.129        (00:00:11)
+cdintra_z:0.02837    loss:4.157    lsd:4.129        (00:00:10)
 ----------
 epoch 173 (valid)
 cdintra_z:0.02771    loss:4.482    lsd:4.482
@@ -1707,7 +1706,7 @@ cdintra_z:0.02771    loss:4.482    lsd:4.482
 Not saving model! Last saved: 171
 ---------------------
 epoch 174 (train) 
-cdintra_z:0.02804    loss:4.147    lsd:4.119        (00:00:11)
+cdintra_z:0.02804    loss:4.147    lsd:4.119        (00:00:10)
 ----------
 epoch 174 (valid)
 cdintra_z:0.02751    loss:4.476    lsd:4.476
@@ -1715,7 +1714,7 @@ cdintra_z:0.02751    loss:4.476    lsd:4.476
 Not saving model! Last saved: 171
 ---------------------
 epoch 175 (train) 
-cdintra_z:0.02797    loss:4.155    lsd:4.127        (00:00:11)
+cdintra_z:0.02797    loss:4.155    lsd:4.127        (00:00:10)
 ----------
 epoch 175 (valid)
 cdintra_z:0.02767    loss:4.49    lsd:4.49
@@ -1733,7 +1732,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 177 (train) 
-cdintra_z:0.02851    loss:4.129    lsd:4.101        (00:00:11)
+cdintra_z:0.02851    loss:4.129    lsd:4.101        (00:00:10)
 ----------
 epoch 177 (valid)
 cdintra_z:0.02833    loss:4.485    lsd:4.485
@@ -1813,7 +1812,7 @@ cdintra_z:0.02602    loss:4.703    lsd:4.703
 Not saving model! Last saved: 176
 ---------------------
 epoch 187 (train) 
-cdintra_z:0.02682    loss:4.292    lsd:4.266        (00:00:11)
+cdintra_z:0.02682    loss:4.292    lsd:4.266        (00:00:10)
 ----------
 epoch 187 (valid)
 cdintra_z:0.02779    loss:4.514    lsd:4.514
@@ -1845,7 +1844,7 @@ cdintra_z:0.02808    loss:4.501    lsd:4.501
 Not saving model! Last saved: 176
 ---------------------
 epoch 191 (train) 
-cdintra_z:0.0287    loss:4.126    lsd:4.098        (00:00:11)
+cdintra_z:0.0287    loss:4.126    lsd:4.098        (00:00:10)
 ----------
 epoch 191 (valid)
 cdintra_z:0.02978    loss:4.459    lsd:4.459
@@ -1869,7 +1868,7 @@ cdintra_z:0.03003    loss:4.459    lsd:4.459
 Not saving model! Last saved: 176
 ---------------------
 epoch 194 (train) 
-cdintra_z:0.02977    loss:4.105    lsd:4.075        (00:00:11)
+cdintra_z:0.02977    loss:4.105    lsd:4.075        (00:00:10)
 ----------
 epoch 194 (valid)
 cdintra_z:0.02928    loss:4.461    lsd:4.461
@@ -1951,7 +1950,7 @@ cdintra_z:0.02856    loss:4.493    lsd:4.493
 Not saving model! Last saved: 196
 ---------------------
 epoch 204 (train) 
-cdintra_z:0.02885    loss:4.094    lsd:4.065        (00:00:11)
+cdintra_z:0.02885    loss:4.094    lsd:4.065        (00:00:10)
 ----------
 epoch 204 (valid)
 cdintra_z:0.02851    loss:4.479    lsd:4.479
@@ -1985,7 +1984,7 @@ cdintra_z:0.02924    loss:4.482    lsd:4.482
 Not saving model! Last saved: 206
 ---------------------
 epoch 208 (train) 
-cdintra_z:0.02895    loss:4.087    lsd:4.058        (00:00:11)
+cdintra_z:0.02895    loss:4.087    lsd:4.058        (00:00:10)
 ----------
 epoch 208 (valid)
 cdintra_z:0.02822    loss:4.495    lsd:4.495
@@ -1993,7 +1992,7 @@ cdintra_z:0.02822    loss:4.495    lsd:4.495
 Not saving model! Last saved: 206
 ---------------------
 epoch 209 (train) 
-cdintra_z:0.02809    loss:4.098    lsd:4.07        (00:00:11)
+cdintra_z:0.02809    loss:4.098    lsd:4.07        (00:00:10)
 ----------
 epoch 209 (valid)
 cdintra_z:0.02796    loss:4.463    lsd:4.463
@@ -2001,7 +2000,7 @@ cdintra_z:0.02796    loss:4.463    lsd:4.463
 Not saving model! Last saved: 206
 ---------------------
 epoch 210 (train) 
-cdintra_z:0.02824    loss:4.087    lsd:4.058        (00:00:11)
+cdintra_z:0.02824    loss:4.087    lsd:4.058        (00:00:10)
 ----------
 epoch 210 (valid)
 cdintra_z:0.0282    loss:4.508    lsd:4.508
@@ -2033,7 +2032,7 @@ cdintra_z:0.02944    loss:4.504    lsd:4.504
 Not saving model! Last saved: 206
 ---------------------
 epoch 214 (train) 
-cdintra_z:0.02968    loss:4.148    lsd:4.118        (00:00:11)
+cdintra_z:0.02968    loss:4.148    lsd:4.118        (00:00:10)
 ----------
 epoch 214 (valid)
 cdintra_z:0.02921    loss:4.511    lsd:4.511
@@ -2057,7 +2056,7 @@ cdintra_z:0.02778    loss:4.568    lsd:4.568
 Not saving model! Last saved: 206
 ---------------------
 epoch 217 (train) 
-cdintra_z:0.02805    loss:4.137    lsd:4.109        (00:00:11)
+cdintra_z:0.02805    loss:4.137    lsd:4.109        (00:00:10)
 ----------
 epoch 217 (valid)
 cdintra_z:0.02835    loss:4.491    lsd:4.491
@@ -2081,7 +2080,7 @@ cdintra_z:0.03192    loss:4.444    lsd:4.444
 Not saving model! Last saved: 206
 ---------------------
 epoch 220 (train) 
-cdintra_z:0.03179    loss:4.027    lsd:3.995        (00:00:11)
+cdintra_z:0.03179    loss:4.027    lsd:3.995        (00:00:10)
 ----------
 epoch 220 (valid)
 cdintra_z:0.03075    loss:4.456    lsd:4.456
@@ -2089,7 +2088,7 @@ cdintra_z:0.03075    loss:4.456    lsd:4.456
 Not saving model! Last saved: 206
 ---------------------
 epoch 221 (train) 
-cdintra_z:0.03032    loss:4.028    lsd:3.998        (00:00:11)
+cdintra_z:0.03032    loss:4.028    lsd:3.998        (00:00:10)
 ----------
 epoch 221 (valid)
 cdintra_z:0.02926    loss:4.422    lsd:4.422
@@ -2131,7 +2130,7 @@ cdintra_z:0.03096    loss:4.422    lsd:4.422
 Not saving model! Last saved: 224
 ---------------------
 epoch 226 (train) 
-cdintra_z:0.03034    loss:3.991    lsd:3.961        (00:00:11)
+cdintra_z:0.03034    loss:3.991    lsd:3.961        (00:00:10)
 ----------
 epoch 226 (valid)
 cdintra_z:0.02986    loss:4.443    lsd:4.443
@@ -2149,7 +2148,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 228 (train) 
-cdintra_z:0.03045    loss:3.982    lsd:3.951        (00:00:11)
+cdintra_z:0.03045    loss:3.982    lsd:3.951        (00:00:10)
 ----------
 epoch 228 (valid)
 cdintra_z:0.03073    loss:4.444    lsd:4.444
@@ -2189,7 +2188,7 @@ cdintra_z:0.02955    loss:4.417    lsd:4.417
 Not saving model! Last saved: 227
 ---------------------
 epoch 233 (train) 
-cdintra_z:0.02974    loss:3.972    lsd:3.942        (00:00:11)
+cdintra_z:0.02974    loss:3.972    lsd:3.942        (00:00:10)
 ----------
 epoch 233 (valid)
 cdintra_z:0.02949    loss:4.428    lsd:4.428
@@ -2207,7 +2206,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 235 (train) 
-cdintra_z:0.02899    loss:3.963    lsd:3.934        (00:00:11)
+cdintra_z:0.02899    loss:3.963    lsd:3.934        (00:00:10)
 ----------
 epoch 235 (valid)
 cdintra_z:0.02908    loss:4.468    lsd:4.468
@@ -2283,7 +2282,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 244 (train) 
-cdintra_z:0.02812    loss:3.958    lsd:3.93        (00:00:11)
+cdintra_z:0.02812    loss:3.958    lsd:3.93        (00:00:10)
 ----------
 epoch 244 (valid)
 cdintra_z:0.02826    loss:4.473    lsd:4.473
@@ -2291,7 +2290,7 @@ cdintra_z:0.02826    loss:4.473    lsd:4.473
 Not saving model! Last saved: 243
 ---------------------
 epoch 245 (train) 
-cdintra_z:0.02877    loss:3.993    lsd:3.964        (00:00:11)
+cdintra_z:0.02877    loss:3.993    lsd:3.964        (00:00:10)
 ----------
 epoch 245 (valid)
 cdintra_z:0.02919    loss:4.461    lsd:4.461
@@ -2299,7 +2298,7 @@ cdintra_z:0.02919    loss:4.461    lsd:4.461
 Not saving model! Last saved: 243
 ---------------------
 epoch 246 (train) 
-cdintra_z:0.02967    loss:3.967    lsd:3.937        (00:00:11)
+cdintra_z:0.02967    loss:3.967    lsd:3.937        (00:00:10)
 ----------
 epoch 246 (valid)
 cdintra_z:0.02998    loss:4.445    lsd:4.445
@@ -2315,7 +2314,7 @@ cdintra_z:0.02981    loss:4.471    lsd:4.471
 Not saving model! Last saved: 243
 ---------------------
 epoch 248 (train) 
-cdintra_z:0.02924    loss:4.04    lsd:4.011        (00:00:11)
+cdintra_z:0.02924    loss:4.04    lsd:4.011        (00:00:10)
 ----------
 epoch 248 (valid)
 cdintra_z:0.02832    loss:4.46    lsd:4.46
@@ -2323,7 +2322,7 @@ cdintra_z:0.02832    loss:4.46    lsd:4.46
 Not saving model! Last saved: 243
 ---------------------
 epoch 249 (train) 
-cdintra_z:0.02778    loss:4.052    lsd:4.024        (00:00:11)
+cdintra_z:0.02778    loss:4.052    lsd:4.024        (00:00:10)
 ----------
 epoch 249 (valid)
 cdintra_z:0.02743    loss:4.592    lsd:4.592
@@ -2331,7 +2330,7 @@ cdintra_z:0.02743    loss:4.592    lsd:4.592
 Not saving model! Last saved: 243
 ---------------------
 epoch 250 (train) 
-cdintra_z:0.0273    loss:4.141    lsd:4.113        (00:00:11)
+cdintra_z:0.0273    loss:4.141    lsd:4.113        (00:00:10)
 ----------
 epoch 250 (valid)
 cdintra_z:0.02806    loss:4.47    lsd:4.47
@@ -2339,7 +2338,7 @@ cdintra_z:0.02806    loss:4.47    lsd:4.47
 Not saving model! Last saved: 243
 ---------------------
 epoch 251 (train) 
-cdintra_z:0.02832    loss:4.067    lsd:4.039        (00:00:11)
+cdintra_z:0.02832    loss:4.067    lsd:4.039        (00:00:10)
 ----------
 epoch 251 (valid)
 cdintra_z:0.02904    loss:4.575    lsd:4.575
@@ -2347,7 +2346,7 @@ cdintra_z:0.02904    loss:4.575    lsd:4.575
 Not saving model! Last saved: 243
 ---------------------
 epoch 252 (train) 
-cdintra_z:0.02953    loss:4.105    lsd:4.076        (00:00:11)
+cdintra_z:0.02953    loss:4.105    lsd:4.076        (00:00:10)
 ----------
 epoch 252 (valid)
 cdintra_z:0.03044    loss:4.586    lsd:4.586
@@ -2355,7 +2354,7 @@ cdintra_z:0.03044    loss:4.586    lsd:4.586
 Not saving model! Last saved: 243
 ---------------------
 epoch 253 (train) 
-cdintra_z:0.0304    loss:4.096    lsd:4.066        (00:00:11)
+cdintra_z:0.0304    loss:4.096    lsd:4.066        (00:00:10)
 ----------
 epoch 253 (valid)
 cdintra_z:0.03106    loss:4.435    lsd:4.435
@@ -2363,7 +2362,7 @@ cdintra_z:0.03106    loss:4.435    lsd:4.435
 Not saving model! Last saved: 243
 ---------------------
 epoch 254 (train) 
-cdintra_z:0.03099    loss:4.013    lsd:3.982        (00:00:11)
+cdintra_z:0.03099    loss:4.013    lsd:3.982        (00:00:10)
 ----------
 epoch 254 (valid)
 cdintra_z:0.03134    loss:4.513    lsd:4.513
@@ -2371,7 +2370,7 @@ cdintra_z:0.03134    loss:4.513    lsd:4.513
 Not saving model! Last saved: 243
 ---------------------
 epoch 255 (train) 
-cdintra_z:0.03124    loss:4.048    lsd:4.017        (00:00:11)
+cdintra_z:0.03124    loss:4.048    lsd:4.017        (00:00:10)
 ----------
 epoch 255 (valid)
 cdintra_z:0.03156    loss:4.457    lsd:4.457
@@ -2403,7 +2402,7 @@ cdintra_z:0.03257    loss:4.437    lsd:4.437
 Not saving model! Last saved: 243
 ---------------------
 epoch 259 (train) 
-cdintra_z:0.03248    loss:3.929    lsd:3.896        (00:00:11)
+cdintra_z:0.03248    loss:3.929    lsd:3.896        (00:00:10)
 ----------
 epoch 259 (valid)
 cdintra_z:0.03291    loss:4.42    lsd:4.42
@@ -2419,7 +2418,7 @@ cdintra_z:0.03319    loss:4.391    lsd:4.391
 Not saving model! Last saved: 243
 ---------------------
 epoch 261 (train) 
-cdintra_z:0.03272    loss:3.896    lsd:3.863        (00:00:11)
+cdintra_z:0.03272    loss:3.896    lsd:3.863        (00:00:10)
 ----------
 epoch 261 (valid)
 cdintra_z:0.03301    loss:4.421    lsd:4.421
@@ -2427,7 +2426,7 @@ cdintra_z:0.03301    loss:4.421    lsd:4.421
 Not saving model! Last saved: 243
 ---------------------
 epoch 262 (train) 
-cdintra_z:0.03268    loss:3.906    lsd:3.874        (00:00:11)
+cdintra_z:0.03268    loss:3.906    lsd:3.874        (00:00:10)
 ----------
 epoch 262 (valid)
 cdintra_z:0.03285    loss:4.402    lsd:4.402
@@ -2435,7 +2434,7 @@ cdintra_z:0.03285    loss:4.402    lsd:4.402
 Not saving model! Last saved: 243
 ---------------------
 epoch 263 (train) 
-cdintra_z:0.03245    loss:3.892    lsd:3.86        (00:00:11)
+cdintra_z:0.03245    loss:3.892    lsd:3.86        (00:00:10)
 ----------
 epoch 263 (valid)
 cdintra_z:0.03214    loss:4.372    lsd:4.372
@@ -2445,7 +2444,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 264 (train) 
-cdintra_z:0.03162    loss:3.878    lsd:3.846        (00:00:11)
+cdintra_z:0.03162    loss:3.878    lsd:3.846        (00:00:10)
 ----------
 epoch 264 (valid)
 cdintra_z:0.03104    loss:4.408    lsd:4.408
@@ -2453,7 +2452,7 @@ cdintra_z:0.03104    loss:4.408    lsd:4.408
 Not saving model! Last saved: 263
 ---------------------
 epoch 265 (train) 
-cdintra_z:0.03047    loss:3.908    lsd:3.878        (00:00:11)
+cdintra_z:0.03047    loss:3.908    lsd:3.878        (00:00:10)
 ----------
 epoch 265 (valid)
 cdintra_z:0.03025    loss:4.43    lsd:4.43
@@ -2469,7 +2468,7 @@ cdintra_z:0.03026    loss:4.379    lsd:4.379
 Not saving model! Last saved: 263
 ---------------------
 epoch 267 (train) 
-cdintra_z:0.03049    loss:3.906    lsd:3.876        (00:00:11)
+cdintra_z:0.03049    loss:3.906    lsd:3.876        (00:00:10)
 ----------
 epoch 267 (valid)
 cdintra_z:0.03123    loss:4.456    lsd:4.456
@@ -2477,7 +2476,7 @@ cdintra_z:0.03123    loss:4.456    lsd:4.456
 Not saving model! Last saved: 263
 ---------------------
 epoch 268 (train) 
-cdintra_z:0.03121    loss:3.944    lsd:3.913        (00:00:11)
+cdintra_z:0.03121    loss:3.944    lsd:3.913        (00:00:10)
 ----------
 epoch 268 (valid)
 cdintra_z:0.03148    loss:4.402    lsd:4.402
@@ -2485,7 +2484,7 @@ cdintra_z:0.03148    loss:4.402    lsd:4.402
 Not saving model! Last saved: 263
 ---------------------
 epoch 269 (train) 
-cdintra_z:0.03089    loss:3.898    lsd:3.867        (00:00:11)
+cdintra_z:0.03089    loss:3.898    lsd:3.867        (00:00:10)
 ----------
 epoch 269 (valid)
 cdintra_z:0.03054    loss:4.392    lsd:4.392
@@ -2493,7 +2492,7 @@ cdintra_z:0.03054    loss:4.392    lsd:4.392
 Not saving model! Last saved: 263
 ---------------------
 epoch 270 (train) 
-cdintra_z:0.03    loss:3.869    lsd:3.839        (00:00:11)
+cdintra_z:0.03    loss:3.869    lsd:3.839        (00:00:10)
 ----------
 epoch 270 (valid)
 cdintra_z:0.02967    loss:4.379    lsd:4.379
@@ -2501,7 +2500,7 @@ cdintra_z:0.02967    loss:4.379    lsd:4.379
 Not saving model! Last saved: 263
 ---------------------
 epoch 271 (train) 
-cdintra_z:0.02956    loss:3.872    lsd:3.843        (00:00:11)
+cdintra_z:0.02956    loss:3.872    lsd:3.843        (00:00:10)
 ----------
 epoch 271 (valid)
 cdintra_z:0.02962    loss:4.37    lsd:4.37
@@ -2511,7 +2510,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 272 (train) 
-cdintra_z:0.02978    loss:3.861    lsd:3.832        (00:00:11)
+cdintra_z:0.02978    loss:3.861    lsd:3.832        (00:00:10)
 ----------
 epoch 272 (valid)
 cdintra_z:0.03062    loss:4.394    lsd:4.394
@@ -2519,7 +2518,7 @@ cdintra_z:0.03062    loss:4.394    lsd:4.394
 Not saving model! Last saved: 271
 ---------------------
 epoch 273 (train) 
-cdintra_z:0.03071    loss:3.861    lsd:3.831        (00:00:11)
+cdintra_z:0.03071    loss:3.861    lsd:3.831        (00:00:10)
 ----------
 epoch 273 (valid)
 cdintra_z:0.03132    loss:4.373    lsd:4.373
@@ -2571,7 +2570,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 279 (train) 
-cdintra_z:0.02973    loss:3.851    lsd:3.821        (00:00:11)
+cdintra_z:0.02973    loss:3.851    lsd:3.821        (00:00:10)
 ----------
 epoch 279 (valid)
 cdintra_z:0.02993    loss:4.455    lsd:4.455
@@ -2579,7 +2578,7 @@ cdintra_z:0.02993    loss:4.455    lsd:4.455
 Not saving model! Last saved: 278
 ---------------------
 epoch 280 (train) 
-cdintra_z:0.02981    loss:3.924    lsd:3.894        (00:00:11)
+cdintra_z:0.02981    loss:3.924    lsd:3.894        (00:00:10)
 ----------
 epoch 280 (valid)
 cdintra_z:0.03005    loss:4.459    lsd:4.459
@@ -2587,7 +2586,7 @@ cdintra_z:0.03005    loss:4.459    lsd:4.459
 Not saving model! Last saved: 278
 ---------------------
 epoch 281 (train) 
-cdintra_z:0.03001    loss:3.926    lsd:3.896        (00:00:11)
+cdintra_z:0.03001    loss:3.926    lsd:3.896        (00:00:10)
 ----------
 epoch 281 (valid)
 cdintra_z:0.03084    loss:4.392    lsd:4.392
@@ -2619,7 +2618,7 @@ cdintra_z:0.02823    loss:4.439    lsd:4.439
 Not saving model! Last saved: 278
 ---------------------
 epoch 285 (train) 
-cdintra_z:0.02808    loss:3.944    lsd:3.916        (00:00:10)
+cdintra_z:0.02808    loss:3.944    lsd:3.916        (00:00:11)
 ----------
 epoch 285 (valid)
 cdintra_z:0.02881    loss:4.472    lsd:4.472
@@ -2627,7 +2626,7 @@ cdintra_z:0.02881    loss:4.472    lsd:4.472
 Not saving model! Last saved: 278
 ---------------------
 epoch 286 (train) 
-cdintra_z:0.02976    loss:3.951    lsd:3.921        (00:00:11)
+cdintra_z:0.02976    loss:3.951    lsd:3.921        (00:00:10)
 ----------
 epoch 286 (valid)
 cdintra_z:0.03144    loss:4.427    lsd:4.427
@@ -2659,7 +2658,7 @@ cdintra_z:0.03034    loss:4.377    lsd:4.377
 Not saving model! Last saved: 278
 ---------------------
 epoch 290 (train) 
-cdintra_z:0.03044    loss:3.839    lsd:3.809        (00:00:11)
+cdintra_z:0.03044    loss:3.839    lsd:3.809        (00:00:10)
 ----------
 epoch 290 (valid)
 cdintra_z:0.03138    loss:4.391    lsd:4.391
@@ -2675,7 +2674,7 @@ cdintra_z:0.03148    loss:4.362    lsd:4.362
 Not saving model! Last saved: 278
 ---------------------
 epoch 292 (train) 
-cdintra_z:0.03105    loss:3.834    lsd:3.803        (00:00:11)
+cdintra_z:0.03105    loss:3.834    lsd:3.803        (00:00:10)
 ----------
 epoch 292 (valid)
 cdintra_z:0.03075    loss:4.399    lsd:4.399
@@ -2683,7 +2682,7 @@ cdintra_z:0.03075    loss:4.399    lsd:4.399
 Not saving model! Last saved: 278
 ---------------------
 epoch 293 (train) 
-cdintra_z:0.03037    loss:3.847    lsd:3.817        (00:00:11)
+cdintra_z:0.03037    loss:3.847    lsd:3.817        (00:00:10)
 ----------
 epoch 293 (valid)
 cdintra_z:0.03029    loss:4.405    lsd:4.405
@@ -2723,7 +2722,7 @@ cdintra_z:0.0305    loss:4.397    lsd:4.397
 Not saving model! Last saved: 278
 ---------------------
 epoch 298 (train) 
-cdintra_z:0.02982    loss:3.82    lsd:3.791        (00:00:11)
+cdintra_z:0.02982    loss:3.82    lsd:3.791        (00:00:10)
 ----------
 epoch 298 (valid)
 cdintra_z:0.02971    loss:4.376    lsd:4.376
@@ -2803,7 +2802,7 @@ cdintra_z:0.03099    loss:4.402    lsd:4.402
 Not saving model! Last saved: 278
 ---------------------
 epoch 308 (train) 
-cdintra_z:0.0303    loss:3.824    lsd:3.793        (00:00:11)
+cdintra_z:0.0303    loss:3.824    lsd:3.793        (00:00:10)
 ----------
 epoch 308 (valid)
 cdintra_z:0.03033    loss:4.385    lsd:4.385
@@ -2851,7 +2850,7 @@ cdintra_z:0.03052    loss:4.393    lsd:4.393
 Not saving model! Last saved: 278
 ---------------------
 epoch 314 (train) 
-cdintra_z:0.03067    loss:3.788    lsd:3.758        (00:00:11)
+cdintra_z:0.03067    loss:3.788    lsd:3.758        (00:00:10)
 ----------
 epoch 314 (valid)
 cdintra_z:0.03125    loss:4.395    lsd:4.395
@@ -2859,7 +2858,7 @@ cdintra_z:0.03125    loss:4.395    lsd:4.395
 Not saving model! Last saved: 278
 ---------------------
 epoch 315 (train) 
-cdintra_z:0.03094    loss:3.785    lsd:3.754        (00:00:11)
+cdintra_z:0.03094    loss:3.785    lsd:3.754        (00:00:10)
 ----------
 epoch 315 (valid)
 cdintra_z:0.03102    loss:4.339    lsd:4.339
@@ -2869,7 +2868,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 316 (train) 
-cdintra_z:0.03059    loss:3.787    lsd:3.756        (00:00:11)
+cdintra_z:0.03059    loss:3.787    lsd:3.756        (00:00:10)
 ----------
 epoch 316 (valid)
 cdintra_z:0.03063    loss:4.384    lsd:4.384
@@ -2877,7 +2876,7 @@ cdintra_z:0.03063    loss:4.384    lsd:4.384
 Not saving model! Last saved: 315
 ---------------------
 epoch 317 (train) 
-cdintra_z:0.03023    loss:3.824    lsd:3.794        (00:00:11)
+cdintra_z:0.03023    loss:3.824    lsd:3.794        (00:00:10)
 ----------
 epoch 317 (valid)
 cdintra_z:0.03027    loss:4.363    lsd:4.363
@@ -2893,7 +2892,7 @@ cdintra_z:0.02988    loss:4.407    lsd:4.407
 Not saving model! Last saved: 315
 ---------------------
 epoch 319 (train) 
-cdintra_z:0.02939    loss:3.814    lsd:3.784        (00:00:11)
+cdintra_z:0.02939    loss:3.814    lsd:3.784        (00:00:10)
 ----------
 epoch 319 (valid)
 cdintra_z:0.0297    loss:4.347    lsd:4.347
@@ -2901,7 +2900,7 @@ cdintra_z:0.0297    loss:4.347    lsd:4.347
 Not saving model! Last saved: 315
 ---------------------
 epoch 320 (train) 
-cdintra_z:0.0298    loss:3.791    lsd:3.761        (00:00:11)
+cdintra_z:0.0298    loss:3.791    lsd:3.761        (00:00:10)
 ----------
 epoch 320 (valid)
 cdintra_z:0.03069    loss:4.382    lsd:4.382
@@ -2917,7 +2916,7 @@ cdintra_z:0.03197    loss:4.404    lsd:4.404
 Not saving model! Last saved: 315
 ---------------------
 epoch 322 (train) 
-cdintra_z:0.03127    loss:3.798    lsd:3.767        (00:00:11)
+cdintra_z:0.03127    loss:3.798    lsd:3.767        (00:00:10)
 ----------
 epoch 322 (valid)
 cdintra_z:0.03104    loss:4.378    lsd:4.378
@@ -2933,7 +2932,7 @@ cdintra_z:0.0295    loss:4.359    lsd:4.359
 Not saving model! Last saved: 315
 ---------------------
 epoch 324 (train) 
-cdintra_z:0.02891    loss:3.817    lsd:3.789        (00:00:11)
+cdintra_z:0.02891    loss:3.817    lsd:3.789        (00:00:10)
 ----------
 epoch 324 (valid)
 cdintra_z:0.02871    loss:4.497    lsd:4.497
@@ -2957,7 +2956,7 @@ cdintra_z:0.02906    loss:4.538    lsd:4.538
 Not saving model! Last saved: 315
 ---------------------
 epoch 327 (train) 
-cdintra_z:0.02957    loss:3.925    lsd:3.895        (00:00:11)
+cdintra_z:0.02957    loss:3.925    lsd:3.895        (00:00:10)
 ----------
 epoch 327 (valid)
 cdintra_z:0.03141    loss:4.377    lsd:4.377
@@ -2965,7 +2964,7 @@ cdintra_z:0.03141    loss:4.377    lsd:4.377
 Not saving model! Last saved: 315
 ---------------------
 epoch 328 (train) 
-cdintra_z:0.03111    loss:3.798    lsd:3.766        (00:00:11)
+cdintra_z:0.03111    loss:3.798    lsd:3.766        (00:00:10)
 ----------
 epoch 328 (valid)
 cdintra_z:0.0315    loss:4.385    lsd:4.385
@@ -2973,7 +2972,7 @@ cdintra_z:0.0315    loss:4.385    lsd:4.385
 Not saving model! Last saved: 315
 ---------------------
 epoch 329 (train) 
-cdintra_z:0.03058    loss:3.803    lsd:3.772        (00:00:11)
+cdintra_z:0.03058    loss:3.803    lsd:3.772        (00:00:10)
 ----------
 epoch 329 (valid)
 cdintra_z:0.02989    loss:4.373    lsd:4.373
@@ -2989,7 +2988,7 @@ cdintra_z:0.03019    loss:4.413    lsd:4.413
 Not saving model! Last saved: 315
 ---------------------
 epoch 331 (train) 
-cdintra_z:0.0301    loss:3.784    lsd:3.754        (00:00:11)
+cdintra_z:0.0301    loss:3.784    lsd:3.754        (00:00:10)
 ----------
 epoch 331 (valid)
 cdintra_z:0.03121    loss:4.383    lsd:4.383
@@ -3013,7 +3012,7 @@ cdintra_z:0.0317    loss:4.365    lsd:4.365
 Not saving model! Last saved: 315
 ---------------------
 epoch 334 (train) 
-cdintra_z:0.03109    loss:3.752    lsd:3.721        (00:00:11)
+cdintra_z:0.03109    loss:3.752    lsd:3.721        (00:00:10)
 ----------
 epoch 334 (valid)
 cdintra_z:0.03103    loss:4.343    lsd:4.343
@@ -3029,7 +3028,7 @@ cdintra_z:0.03084    loss:4.367    lsd:4.367
 Not saving model! Last saved: 315
 ---------------------
 epoch 336 (train) 
-cdintra_z:0.03081    loss:3.743    lsd:3.712        (00:00:11)
+cdintra_z:0.03081    loss:3.743    lsd:3.712        (00:00:10)
 ----------
 epoch 336 (valid)
 cdintra_z:0.03179    loss:4.349    lsd:4.349
@@ -3197,7 +3196,7 @@ cdintra_z:0.032    loss:4.351    lsd:4.351
 Not saving model! Last saved: 315
 ---------------------
 epoch 357 (train) 
-cdintra_z:0.03165    loss:3.71    lsd:3.678        (00:00:11)
+cdintra_z:0.03165    loss:3.71    lsd:3.678        (00:00:10)
 ----------
 epoch 357 (valid)
 cdintra_z:0.0322    loss:4.342    lsd:4.342
@@ -3223,7 +3222,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 360 (train) 
-cdintra_z:0.02964    loss:3.731    lsd:3.702        (00:00:11)
+cdintra_z:0.02964    loss:3.731    lsd:3.702        (00:00:10)
 ----------
 epoch 360 (valid)
 cdintra_z:0.03051    loss:4.378    lsd:4.378
@@ -3279,7 +3278,7 @@ cdintra_z:0.03131    loss:4.351    lsd:4.351
 Not saving model! Last saved: 359
 ---------------------
 epoch 367 (train) 
-cdintra_z:0.03075    loss:3.703    lsd:3.672        (00:00:11)
+cdintra_z:0.03075    loss:3.703    lsd:3.672        (00:00:10)
 ----------
 epoch 367 (valid)
 cdintra_z:0.03114    loss:4.338    lsd:4.338
@@ -3353,7 +3352,7 @@ cdintra_z:0.03179    loss:4.359    lsd:4.359
 Not saving model! Last saved: 370
 ---------------------
 epoch 376 (train) 
-cdintra_z:0.03111    loss:3.691    lsd:3.66        (00:00:11)
+cdintra_z:0.03111    loss:3.691    lsd:3.66        (00:00:10)
 ----------
 epoch 376 (valid)
 cdintra_z:0.03195    loss:4.322    lsd:4.322
@@ -3363,7 +3362,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 377 (train) 
-cdintra_z:0.03103    loss:3.697    lsd:3.666        (00:00:11)
+cdintra_z:0.03103    loss:3.697    lsd:3.666        (00:00:10)
 ----------
 epoch 377 (valid)
 cdintra_z:0.03151    loss:4.354    lsd:4.354
@@ -3371,7 +3370,7 @@ cdintra_z:0.03151    loss:4.354    lsd:4.354
 Not saving model! Last saved: 376
 ---------------------
 epoch 378 (train) 
-cdintra_z:0.03046    loss:3.71    lsd:3.68        (00:00:11)
+cdintra_z:0.03046    loss:3.71    lsd:3.68        (00:00:10)
 ----------
 epoch 378 (valid)
 cdintra_z:0.0305    loss:4.43    lsd:4.43
@@ -3379,7 +3378,7 @@ cdintra_z:0.0305    loss:4.43    lsd:4.43
 Not saving model! Last saved: 376
 ---------------------
 epoch 379 (train) 
-cdintra_z:0.02944    loss:3.735    lsd:3.705        (00:00:11)
+cdintra_z:0.02944    loss:3.735    lsd:3.705        (00:00:10)
 ----------
 epoch 379 (valid)
 cdintra_z:0.0294    loss:4.392    lsd:4.392
@@ -3387,7 +3386,7 @@ cdintra_z:0.0294    loss:4.392    lsd:4.392
 Not saving model! Last saved: 376
 ---------------------
 epoch 380 (train) 
-cdintra_z:0.02892    loss:3.734    lsd:3.705        (00:00:11)
+cdintra_z:0.02892    loss:3.734    lsd:3.705        (00:00:10)
 ----------
 epoch 380 (valid)
 cdintra_z:0.03007    loss:4.381    lsd:4.381
@@ -3395,7 +3394,7 @@ cdintra_z:0.03007    loss:4.381    lsd:4.381
 Not saving model! Last saved: 376
 ---------------------
 epoch 381 (train) 
-cdintra_z:0.03005    loss:3.747    lsd:3.717        (00:00:11)
+cdintra_z:0.03005    loss:3.747    lsd:3.717        (00:00:10)
 ----------
 epoch 381 (valid)
 cdintra_z:0.03225    loss:4.365    lsd:4.365
@@ -3403,7 +3402,7 @@ cdintra_z:0.03225    loss:4.365    lsd:4.365
 Not saving model! Last saved: 376
 ---------------------
 epoch 382 (train) 
-cdintra_z:0.03148    loss:3.685    lsd:3.654        (00:00:11)
+cdintra_z:0.03148    loss:3.685    lsd:3.654        (00:00:10)
 ----------
 epoch 382 (valid)
 cdintra_z:0.03243    loss:4.345    lsd:4.345
@@ -3411,7 +3410,7 @@ cdintra_z:0.03243    loss:4.345    lsd:4.345
 Not saving model! Last saved: 376
 ---------------------
 epoch 383 (train) 
-cdintra_z:0.03125    loss:3.658    lsd:3.626        (00:00:11)
+cdintra_z:0.03125    loss:3.658    lsd:3.626        (00:00:10)
 ----------
 epoch 383 (valid)
 cdintra_z:0.03124    loss:4.304    lsd:4.304
@@ -3421,7 +3420,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 384 (train) 
-cdintra_z:0.03047    loss:3.648    lsd:3.618        (00:00:11)
+cdintra_z:0.03047    loss:3.648    lsd:3.618        (00:00:10)
 ----------
 epoch 384 (valid)
 cdintra_z:0.03123    loss:4.337    lsd:4.337
@@ -3429,7 +3428,7 @@ cdintra_z:0.03123    loss:4.337    lsd:4.337
 Not saving model! Last saved: 383
 ---------------------
 epoch 385 (train) 
-cdintra_z:0.03077    loss:3.649    lsd:3.619        (00:00:11)
+cdintra_z:0.03077    loss:3.649    lsd:3.619        (00:00:10)
 ----------
 epoch 385 (valid)
 cdintra_z:0.03204    loss:4.308    lsd:4.308
@@ -3437,7 +3436,7 @@ cdintra_z:0.03204    loss:4.308    lsd:4.308
 Not saving model! Last saved: 383
 ---------------------
 epoch 386 (train) 
-cdintra_z:0.03131    loss:3.638    lsd:3.606        (00:00:11)
+cdintra_z:0.03131    loss:3.638    lsd:3.606        (00:00:10)
 ----------
 epoch 386 (valid)
 cdintra_z:0.03194    loss:4.332    lsd:4.332
@@ -3445,7 +3444,7 @@ cdintra_z:0.03194    loss:4.332    lsd:4.332
 Not saving model! Last saved: 383
 ---------------------
 epoch 387 (train) 
-cdintra_z:0.03091    loss:3.644    lsd:3.613        (00:00:11)
+cdintra_z:0.03091    loss:3.644    lsd:3.613        (00:00:10)
 ----------
 epoch 387 (valid)
 cdintra_z:0.03112    loss:4.342    lsd:4.342
@@ -3461,7 +3460,7 @@ cdintra_z:0.03062    loss:4.373    lsd:4.373
 Not saving model! Last saved: 383
 ---------------------
 epoch 389 (train) 
-cdintra_z:0.03029    loss:3.664    lsd:3.633        (00:00:11)
+cdintra_z:0.03029    loss:3.664    lsd:3.633        (00:00:10)
 ----------
 epoch 389 (valid)
 cdintra_z:0.0316    loss:4.346    lsd:4.346
@@ -3469,7 +3468,7 @@ cdintra_z:0.0316    loss:4.346    lsd:4.346
 Not saving model! Last saved: 383
 ---------------------
 epoch 390 (train) 
-cdintra_z:0.03124    loss:3.663    lsd:3.632        (00:00:11)
+cdintra_z:0.03124    loss:3.663    lsd:3.632        (00:00:10)
 ----------
 epoch 390 (valid)
 cdintra_z:0.03212    loss:4.321    lsd:4.321
@@ -3477,7 +3476,7 @@ cdintra_z:0.03212    loss:4.321    lsd:4.321
 Not saving model! Last saved: 383
 ---------------------
 epoch 391 (train) 
-cdintra_z:0.03082    loss:3.673    lsd:3.642        (00:00:11)
+cdintra_z:0.03082    loss:3.673    lsd:3.642        (00:00:10)
 ----------
 epoch 391 (valid)
 cdintra_z:0.03049    loss:4.363    lsd:4.363
@@ -3485,7 +3484,7 @@ cdintra_z:0.03049    loss:4.363    lsd:4.363
 Not saving model! Last saved: 383
 ---------------------
 epoch 392 (train) 
-cdintra_z:0.0291    loss:3.715    lsd:3.686        (00:00:11)
+cdintra_z:0.0291    loss:3.715    lsd:3.686        (00:00:10)
 ----------
 epoch 392 (valid)
 cdintra_z:0.02903    loss:4.396    lsd:4.396
@@ -3493,7 +3492,7 @@ cdintra_z:0.02903    loss:4.396    lsd:4.396
 Not saving model! Last saved: 383
 ---------------------
 epoch 393 (train) 
-cdintra_z:0.02845    loss:3.742    lsd:3.714        (00:00:11)
+cdintra_z:0.02845    loss:3.742    lsd:3.714        (00:00:10)
 ----------
 epoch 393 (valid)
 cdintra_z:0.02917    loss:4.413    lsd:4.413
@@ -3501,7 +3500,7 @@ cdintra_z:0.02917    loss:4.413    lsd:4.413
 Not saving model! Last saved: 383
 ---------------------
 epoch 394 (train) 
-cdintra_z:0.02904    loss:3.729    lsd:3.7        (00:00:11)
+cdintra_z:0.02904    loss:3.729    lsd:3.7        (00:00:10)
 ----------
 epoch 394 (valid)
 cdintra_z:0.03067    loss:4.397    lsd:4.397
@@ -3509,7 +3508,7 @@ cdintra_z:0.03067    loss:4.397    lsd:4.397
 Not saving model! Last saved: 383
 ---------------------
 epoch 395 (train) 
-cdintra_z:0.03023    loss:3.714    lsd:3.684        (00:00:11)
+cdintra_z:0.03023    loss:3.714    lsd:3.684        (00:00:10)
 ----------
 epoch 395 (valid)
 cdintra_z:0.03216    loss:4.389    lsd:4.389
@@ -3517,7 +3516,7 @@ cdintra_z:0.03216    loss:4.389    lsd:4.389
 Not saving model! Last saved: 383
 ---------------------
 epoch 396 (train) 
-cdintra_z:0.031    loss:3.701    lsd:3.67        (00:00:11)
+cdintra_z:0.031    loss:3.701    lsd:3.67        (00:00:10)
 ----------
 epoch 396 (valid)
 cdintra_z:0.03143    loss:4.35    lsd:4.35
@@ -3525,7 +3524,7 @@ cdintra_z:0.03143    loss:4.35    lsd:4.35
 Not saving model! Last saved: 383
 ---------------------
 epoch 397 (train) 
-cdintra_z:0.03036    loss:3.681    lsd:3.651        (00:00:11)
+cdintra_z:0.03036    loss:3.681    lsd:3.651        (00:00:10)
 ----------
 epoch 397 (valid)
 cdintra_z:0.03064    loss:4.382    lsd:4.382
@@ -3554,10 +3553,10 @@ cdintra_z:0.031    loss:3.663    lsd:3.632        (00:00:10)
 epoch 400 (valid)
 cdintra_z:0.03258    loss:4.383    lsd:4.383
 (00:00:00)
-Saving model!
+Not saving model! Last saved: 383
 ---------------------
 epoch 401 (train) 
-cdintra_z:0.03136    loss:3.669    lsd:3.638        (00:00:11)
+cdintra_z:0.03136    loss:3.669    lsd:3.638        (00:00:10)
 ----------
 epoch 401 (valid)
 cdintra_z:0.03175    loss:4.335    lsd:4.335
@@ -3695,7 +3694,7 @@ cdintra_z:0.03179    loss:4.348    lsd:4.348
 Not saving model! Last saved: 407
 ---------------------
 epoch 418 (train) 
-cdintra_z:0.03077    loss:3.606    lsd:3.575        (00:00:11)
+cdintra_z:0.03077    loss:3.606    lsd:3.575        (00:00:10)
 ----------
 epoch 418 (valid)
 cdintra_z:0.0323    loss:4.347    lsd:4.347
@@ -3703,7 +3702,7 @@ cdintra_z:0.0323    loss:4.347    lsd:4.347
 Not saving model! Last saved: 407
 ---------------------
 epoch 419 (train) 
-cdintra_z:0.031    loss:3.618    lsd:3.587        (00:00:11)
+cdintra_z:0.031    loss:3.618    lsd:3.587        (00:00:10)
 ----------
 epoch 419 (valid)
 cdintra_z:0.03205    loss:4.314    lsd:4.314
@@ -3711,7 +3710,7 @@ cdintra_z:0.03205    loss:4.314    lsd:4.314
 Not saving model! Last saved: 407
 ---------------------
 epoch 420 (train) 
-cdintra_z:0.03067    loss:3.603    lsd:3.572        (00:00:11)
+cdintra_z:0.03067    loss:3.603    lsd:3.572        (00:00:10)
 ----------
 epoch 420 (valid)
 cdintra_z:0.03079    loss:4.342    lsd:4.342
@@ -3719,7 +3718,7 @@ cdintra_z:0.03079    loss:4.342    lsd:4.342
 Not saving model! Last saved: 407
 ---------------------
 epoch 421 (train) 
-cdintra_z:0.02962    loss:3.628    lsd:3.598        (00:00:11)
+cdintra_z:0.02962    loss:3.628    lsd:3.598        (00:00:10)
 ----------
 epoch 421 (valid)
 cdintra_z:0.02992    loss:4.337    lsd:4.337
@@ -3727,7 +3726,7 @@ cdintra_z:0.02992    loss:4.337    lsd:4.337
 Not saving model! Last saved: 407
 ---------------------
 epoch 422 (train) 
-cdintra_z:0.02906    loss:3.63    lsd:3.601        (00:00:11)
+cdintra_z:0.02906    loss:3.63    lsd:3.601        (00:00:10)
 ----------
 epoch 422 (valid)
 cdintra_z:0.03021    loss:4.374    lsd:4.374
@@ -3735,7 +3734,7 @@ cdintra_z:0.03021    loss:4.374    lsd:4.374
 Not saving model! Last saved: 407
 ---------------------
 epoch 423 (train) 
-cdintra_z:0.02959    loss:3.646    lsd:3.617        (00:00:11)
+cdintra_z:0.02959    loss:3.646    lsd:3.617        (00:00:10)
 ----------
 epoch 423 (valid)
 cdintra_z:0.03157    loss:4.402    lsd:4.402
@@ -3743,7 +3742,7 @@ cdintra_z:0.03157    loss:4.402    lsd:4.402
 Not saving model! Last saved: 407
 ---------------------
 epoch 424 (train) 
-cdintra_z:0.03091    loss:3.65    lsd:3.619        (00:00:11)
+cdintra_z:0.03091    loss:3.65    lsd:3.619        (00:00:10)
 ----------
 epoch 424 (valid)
 cdintra_z:0.03267    loss:4.332    lsd:4.332
@@ -3751,7 +3750,7 @@ cdintra_z:0.03267    loss:4.332    lsd:4.332
 Not saving model! Last saved: 407
 ---------------------
 epoch 425 (train) 
-cdintra_z:0.0313    loss:3.599    lsd:3.568        (00:00:11)
+cdintra_z:0.0313    loss:3.599    lsd:3.568        (00:00:10)
 ----------
 epoch 425 (valid)
 cdintra_z:0.03211    loss:4.347    lsd:4.347
@@ -3759,7 +3758,7 @@ cdintra_z:0.03211    loss:4.347    lsd:4.347
 Not saving model! Last saved: 407
 ---------------------
 epoch 426 (train) 
-cdintra_z:0.03037    loss:3.619    lsd:3.589        (00:00:11)
+cdintra_z:0.03037    loss:3.619    lsd:3.589        (00:00:10)
 ----------
 epoch 426 (valid)
 cdintra_z:0.03029    loss:4.321    lsd:4.321
@@ -3993,7 +3992,7 @@ cdintra_z:0.03257    loss:4.34    lsd:4.34
 Not saving model! Last saved: 443
 ---------------------
 epoch 455 (train) 
-cdintra_z:0.03093    loss:3.575    lsd:3.544        (00:00:11)
+cdintra_z:0.03093    loss:3.575    lsd:3.544        (00:00:10)
 ----------
 epoch 455 (valid)
 cdintra_z:0.03198    loss:4.368    lsd:4.368
@@ -4001,7 +4000,7 @@ cdintra_z:0.03198    loss:4.368    lsd:4.368
 Not saving model! Last saved: 443
 ---------------------
 epoch 456 (train) 
-cdintra_z:0.03049    loss:3.553    lsd:3.523        (00:00:11)
+cdintra_z:0.03049    loss:3.553    lsd:3.523        (00:00:10)
 ----------
 epoch 456 (valid)
 cdintra_z:0.03184    loss:4.303    lsd:4.303
@@ -4009,7 +4008,7 @@ cdintra_z:0.03184    loss:4.303    lsd:4.303
 Not saving model! Last saved: 443
 ---------------------
 epoch 457 (train) 
-cdintra_z:0.03058    loss:3.539    lsd:3.508        (00:00:11)
+cdintra_z:0.03058    loss:3.539    lsd:3.508        (00:00:10)
 ----------
 epoch 457 (valid)
 cdintra_z:0.03251    loss:4.29    lsd:4.29
@@ -4041,7 +4040,7 @@ cdintra_z:0.03163    loss:4.31    lsd:4.31
 Not saving model! Last saved: 443
 ---------------------
 epoch 461 (train) 
-cdintra_z:0.03028    loss:3.542    lsd:3.512        (00:00:11)
+cdintra_z:0.03028    loss:3.542    lsd:3.512        (00:00:10)
 ----------
 epoch 461 (valid)
 cdintra_z:0.03218    loss:4.316    lsd:4.316
@@ -4115,7 +4114,7 @@ cdintra_z:0.03182    loss:4.316    lsd:4.316
 Not saving model! Last saved: 465
 ---------------------
 epoch 470 (train) 
-cdintra_z:0.02985    loss:3.531    lsd:3.501        (00:00:11)
+cdintra_z:0.02985    loss:3.531    lsd:3.501        (00:00:10)
 ----------
 epoch 470 (valid)
 cdintra_z:0.03035    loss:4.331    lsd:4.331
@@ -4139,7 +4138,7 @@ cdintra_z:0.03021    loss:4.411    lsd:4.411
 Not saving model! Last saved: 465
 ---------------------
 epoch 473 (train) 
-cdintra_z:0.02931    loss:3.628    lsd:3.598        (00:00:11)
+cdintra_z:0.02931    loss:3.628    lsd:3.598        (00:00:10)
 ----------
 epoch 473 (valid)
 cdintra_z:0.03162    loss:4.376    lsd:4.376
@@ -4219,7 +4218,7 @@ cdintra_z:0.03259    loss:4.288    lsd:4.288
 Not saving model! Last saved: 465
 ---------------------
 epoch 483 (train) 
-cdintra_z:0.03145    loss:3.509    lsd:3.477        (00:00:11)
+cdintra_z:0.03145    loss:3.509    lsd:3.477        (00:00:10)
 ----------
 epoch 483 (valid)
 cdintra_z:0.0329    loss:4.314    lsd:4.314
@@ -4269,7 +4268,7 @@ cdintra_z:0.03184    loss:4.285    lsd:4.285
 Not saving model! Last saved: 487
 ---------------------
 epoch 489 (train) 
-cdintra_z:0.03045    loss:3.479    lsd:3.449        (00:00:11)
+cdintra_z:0.03045    loss:3.479    lsd:3.449        (00:00:10)
 ----------
 epoch 489 (valid)
 cdintra_z:0.03203    loss:4.29    lsd:4.29
@@ -4277,7 +4276,7 @@ cdintra_z:0.03203    loss:4.29    lsd:4.29
 Not saving model! Last saved: 487
 ---------------------
 epoch 490 (train) 
-cdintra_z:0.03059    loss:3.473    lsd:3.443        (00:00:11)
+cdintra_z:0.03059    loss:3.473    lsd:3.443        (00:00:10)
 ----------
 epoch 490 (valid)
 cdintra_z:0.03219    loss:4.295    lsd:4.295
@@ -4285,7 +4284,7 @@ cdintra_z:0.03219    loss:4.295    lsd:4.295
 Not saving model! Last saved: 487
 ---------------------
 epoch 491 (train) 
-cdintra_z:0.03044    loss:3.468    lsd:3.438        (00:00:11)
+cdintra_z:0.03044    loss:3.468    lsd:3.438        (00:00:10)
 ----------
 epoch 491 (valid)
 cdintra_z:0.03203    loss:4.317    lsd:4.317
@@ -4293,7 +4292,7 @@ cdintra_z:0.03203    loss:4.317    lsd:4.317
 Not saving model! Last saved: 487
 ---------------------
 epoch 492 (train) 
-cdintra_z:0.03016    loss:3.488    lsd:3.458        (00:00:11)
+cdintra_z:0.03016    loss:3.488    lsd:3.458        (00:00:10)
 ----------
 epoch 492 (valid)
 cdintra_z:0.03153    loss:4.343    lsd:4.343
@@ -4301,7 +4300,7 @@ cdintra_z:0.03153    loss:4.343    lsd:4.343
 Not saving model! Last saved: 487
 ---------------------
 epoch 493 (train) 
-cdintra_z:0.02991    loss:3.502    lsd:3.472        (00:00:11)
+cdintra_z:0.02991    loss:3.502    lsd:3.472        (00:00:10)
 ----------
 epoch 493 (valid)
 cdintra_z:0.03094    loss:4.313    lsd:4.313
@@ -4341,7 +4340,7 @@ cdintra_z:0.03066    loss:4.372    lsd:4.372
 Not saving model! Last saved: 487
 ---------------------
 epoch 498 (train) 
-cdintra_z:0.02945    loss:3.558    lsd:3.529        (00:00:11)
+cdintra_z:0.02945    loss:3.558    lsd:3.529        (00:00:10)
 ----------
 epoch 498 (valid)
 cdintra_z:0.03163    loss:4.336    lsd:4.336
@@ -4357,7 +4356,7 @@ cdintra_z:0.03218    loss:4.357    lsd:4.357
 Not saving model! Last saved: 487
 ---------------------
 epoch 500 (train) 
-cdintra_z:0.03039    loss:3.51    lsd:3.48        (00:00:11)
+cdintra_z:0.03039    loss:3.51    lsd:3.48        (00:00:10)
 ----------
 epoch 500 (valid)
 cdintra_z:0.03139    loss:4.311    lsd:4.311
@@ -4373,7 +4372,7 @@ cdintra_z:0.03104    loss:4.309    lsd:4.309
 Not saving model! Last saved: 487
 ---------------------
 epoch 502 (train) 
-cdintra_z:0.02963    loss:3.509    lsd:3.479        (00:00:11)
+cdintra_z:0.02963    loss:3.509    lsd:3.479        (00:00:10)
 ----------
 epoch 502 (valid)
 cdintra_z:0.03171    loss:4.319    lsd:4.319
@@ -4381,7 +4380,7 @@ cdintra_z:0.03171    loss:4.319    lsd:4.319
 Not saving model! Last saved: 487
 ---------------------
 epoch 503 (train) 
-cdintra_z:0.03    loss:3.513    lsd:3.483        (00:00:11)
+cdintra_z:0.03    loss:3.513    lsd:3.483        (00:00:10)
 ----------
 epoch 503 (valid)
 cdintra_z:0.03165    loss:4.326    lsd:4.326
@@ -4389,7 +4388,7 @@ cdintra_z:0.03165    loss:4.326    lsd:4.326
 Not saving model! Last saved: 487
 ---------------------
 epoch 504 (train) 
-cdintra_z:0.0298    loss:3.503    lsd:3.474        (00:00:11)
+cdintra_z:0.0298    loss:3.503    lsd:3.474        (00:00:10)
 ----------
 epoch 504 (valid)
 cdintra_z:0.03123    loss:4.358    lsd:4.358
@@ -4397,7 +4396,7 @@ cdintra_z:0.03123    loss:4.358    lsd:4.358
 Not saving model! Last saved: 487
 ---------------------
 epoch 505 (train) 
-cdintra_z:0.02966    loss:3.537    lsd:3.507        (00:00:11)
+cdintra_z:0.02966    loss:3.537    lsd:3.507        (00:00:10)
 ----------
 epoch 505 (valid)
 cdintra_z:0.03146    loss:4.36    lsd:4.36
@@ -4511,7 +4510,7 @@ cdintra_z:0.03138    loss:4.292    lsd:4.292
 Not saving model! Last saved: 507
 ---------------------
 epoch 519 (train) 
-cdintra_z:0.02958    loss:3.444    lsd:3.415        (00:00:11)
+cdintra_z:0.02958    loss:3.444    lsd:3.415        (00:00:10)
 ----------
 epoch 519 (valid)
 cdintra_z:0.03113    loss:4.316    lsd:4.316
@@ -4575,7 +4574,7 @@ cdintra_z:0.03093    loss:4.322    lsd:4.322
 Not saving model! Last saved: 507
 ---------------------
 epoch 527 (train) 
-cdintra_z:0.02904    loss:3.461    lsd:3.432        (00:00:11)
+cdintra_z:0.02904    loss:3.461    lsd:3.432        (00:00:10)
 ----------
 epoch 527 (valid)
 cdintra_z:0.03072    loss:4.372    lsd:4.372
@@ -4623,7 +4622,7 @@ cdintra_z:0.03057    loss:4.342    lsd:4.342
 Not saving model! Last saved: 507
 ---------------------
 epoch 533 (train) 
-cdintra_z:0.0291    loss:3.448    lsd:3.418        (00:00:11)
+cdintra_z:0.0291    loss:3.448    lsd:3.418        (00:00:10)
 ----------
 epoch 533 (valid)
 cdintra_z:0.03162    loss:4.353    lsd:4.353
@@ -4825,7 +4824,7 @@ cdintra_z:0.03029    loss:4.306    lsd:4.306
 Not saving model! Last saved: 548
 ---------------------
 epoch 558 (train) 
-cdintra_z:0.02899    loss:3.451    lsd:3.422        (00:00:11)
+cdintra_z:0.02899    loss:3.451    lsd:3.422        (00:00:10)
 ----------
 epoch 558 (valid)
 cdintra_z:0.03233    loss:4.345    lsd:4.345
@@ -4841,7 +4840,7 @@ cdintra_z:0.03214    loss:4.317    lsd:4.317
 Not saving model! Last saved: 548
 ---------------------
 epoch 560 (train) 
-cdintra_z:0.02953    loss:3.415    lsd:3.386        (00:00:11)
+cdintra_z:0.02953    loss:3.415    lsd:3.386        (00:00:10)
 ----------
 epoch 560 (valid)
 cdintra_z:0.03106    loss:4.325    lsd:4.325
@@ -4865,7 +4864,7 @@ cdintra_z:0.03137    loss:4.288    lsd:4.288
 Not saving model! Last saved: 548
 ---------------------
 epoch 563 (train) 
-cdintra_z:0.02966    loss:3.404    lsd:3.374        (00:00:11)
+cdintra_z:0.02966    loss:3.404    lsd:3.374        (00:00:10)
 ----------
 epoch 563 (valid)
 cdintra_z:0.03207    loss:4.337    lsd:4.337
@@ -4873,7 +4872,7 @@ cdintra_z:0.03207    loss:4.337    lsd:4.337
 Not saving model! Last saved: 548
 ---------------------
 epoch 564 (train) 
-cdintra_z:0.02986    loss:3.406    lsd:3.376        (00:00:11)
+cdintra_z:0.02986    loss:3.406    lsd:3.376        (00:00:10)
 ----------
 epoch 564 (valid)
 cdintra_z:0.03208    loss:4.356    lsd:4.356
@@ -4881,7 +4880,7 @@ cdintra_z:0.03208    loss:4.356    lsd:4.356
 Not saving model! Last saved: 548
 ---------------------
 epoch 565 (train) 
-cdintra_z:0.02965    loss:3.417    lsd:3.387        (00:00:11)
+cdintra_z:0.02965    loss:3.417    lsd:3.387        (00:00:10)
 ----------
 epoch 565 (valid)
 cdintra_z:0.03139    loss:4.306    lsd:4.306
@@ -5017,7 +5016,7 @@ cdintra_z:0.03063    loss:4.29    lsd:4.29
 Not saving model! Last saved: 548
 ---------------------
 epoch 582 (train) 
-cdintra_z:0.02864    loss:3.367    lsd:3.338        (00:00:11)
+cdintra_z:0.02864    loss:3.367    lsd:3.338        (00:00:10)
 ----------
 epoch 582 (valid)
 cdintra_z:0.03078    loss:4.269    lsd:4.269
@@ -5153,7 +5152,7 @@ cdintra_z:0.03055    loss:4.338    lsd:4.338
 Not saving model! Last saved: 548
 ---------------------
 epoch 599 (train) 
-cdintra_z:0.02812    loss:3.385    lsd:3.357        (00:00:11)
+cdintra_z:0.02812    loss:3.385    lsd:3.357        (00:00:10)
 ----------
 epoch 599 (valid)
 cdintra_z:0.03021    loss:4.339    lsd:4.339
@@ -5161,7 +5160,7 @@ cdintra_z:0.03021    loss:4.339    lsd:4.339
 Not saving model! Last saved: 548
 ---------------------
 epoch 600 (train) 
-cdintra_z:0.02847    loss:3.378    lsd:3.35        (00:00:11)
+cdintra_z:0.02847    loss:3.378    lsd:3.35        (00:00:10)
 ----------
 epoch 600 (valid)
 cdintra_z:0.03083    loss:4.303    lsd:4.303
@@ -5201,7 +5200,7 @@ cdintra_z:0.03081    loss:4.327    lsd:4.327
 Not saving model! Last saved: 548
 ---------------------
 epoch 605 (train) 
-cdintra_z:0.02898    loss:3.394    lsd:3.365        (00:00:11)
+cdintra_z:0.02898    loss:3.394    lsd:3.365        (00:00:10)
 ----------
 epoch 605 (valid)
 cdintra_z:0.0315    loss:4.346    lsd:4.346
@@ -5217,7 +5216,7 @@ cdintra_z:0.03108    loss:4.324    lsd:4.324
 Not saving model! Last saved: 548
 ---------------------
 epoch 607 (train) 
-cdintra_z:0.02861    loss:3.36    lsd:3.332        (00:00:11)
+cdintra_z:0.02861    loss:3.36    lsd:3.332        (00:00:10)
 ----------
 epoch 607 (valid)
 cdintra_z:0.03035    loss:4.304    lsd:4.304
@@ -5257,7 +5256,7 @@ cdintra_z:0.03139    loss:4.29    lsd:4.29
 Not saving model! Last saved: 548
 ---------------------
 epoch 612 (train) 
-cdintra_z:0.02918    loss:3.339    lsd:3.31        (00:00:11)
+cdintra_z:0.02918    loss:3.339    lsd:3.31        (00:00:10)
 ----------
 epoch 612 (valid)
 cdintra_z:0.03143    loss:4.291    lsd:4.291
@@ -5265,7 +5264,7 @@ cdintra_z:0.03143    loss:4.291    lsd:4.291
 Not saving model! Last saved: 548
 ---------------------
 epoch 613 (train) 
-cdintra_z:0.0289    loss:3.336    lsd:3.307        (00:00:11)
+cdintra_z:0.0289    loss:3.336    lsd:3.307        (00:00:10)
 ----------
 epoch 613 (valid)
 cdintra_z:0.03083    loss:4.31    lsd:4.31
@@ -5297,7 +5296,7 @@ cdintra_z:0.03164    loss:4.302    lsd:4.302
 Not saving model! Last saved: 548
 ---------------------
 epoch 617 (train) 
-cdintra_z:0.02905    loss:3.322    lsd:3.293        (00:00:11)
+cdintra_z:0.02905    loss:3.322    lsd:3.293        (00:00:10)
 ----------
 epoch 617 (valid)
 cdintra_z:0.03081    loss:4.296    lsd:4.296
@@ -5313,7 +5312,7 @@ cdintra_z:0.03063    loss:4.269    lsd:4.269
 Not saving model! Last saved: 548
 ---------------------
 epoch 619 (train) 
-cdintra_z:0.02831    loss:3.33    lsd:3.302        (00:00:11)
+cdintra_z:0.02831    loss:3.33    lsd:3.302        (00:00:10)
 ----------
 epoch 619 (valid)
 cdintra_z:0.03073    loss:4.298    lsd:4.298
@@ -5321,7 +5320,7 @@ cdintra_z:0.03073    loss:4.298    lsd:4.298
 Not saving model! Last saved: 548
 ---------------------
 epoch 620 (train) 
-cdintra_z:0.02838    loss:3.328    lsd:3.299        (00:00:11)
+cdintra_z:0.02838    loss:3.328    lsd:3.299        (00:00:10)
 ----------
 epoch 620 (valid)
 cdintra_z:0.03074    loss:4.313    lsd:4.313
@@ -5417,7 +5416,7 @@ cdintra_z:0.03049    loss:4.289    lsd:4.289
 Not saving model! Last saved: 548
 ---------------------
 epoch 632 (train) 
-cdintra_z:0.02828    loss:3.313    lsd:3.285        (00:00:11)
+cdintra_z:0.02828    loss:3.313    lsd:3.285        (00:00:10)
 ----------
 epoch 632 (valid)
 cdintra_z:0.03073    loss:4.281    lsd:4.281
@@ -5425,7 +5424,7 @@ cdintra_z:0.03073    loss:4.281    lsd:4.281
 Not saving model! Last saved: 548
 ---------------------
 epoch 633 (train) 
-cdintra_z:0.02845    loss:3.303    lsd:3.275        (00:00:11)
+cdintra_z:0.02845    loss:3.303    lsd:3.275        (00:00:10)
 ----------
 epoch 633 (valid)
 cdintra_z:0.03103    loss:4.314    lsd:4.314
@@ -5433,7 +5432,7 @@ cdintra_z:0.03103    loss:4.314    lsd:4.314
 Not saving model! Last saved: 548
 ---------------------
 epoch 634 (train) 
-cdintra_z:0.02874    loss:3.302    lsd:3.273        (00:00:11)
+cdintra_z:0.02874    loss:3.302    lsd:3.273        (00:00:10)
 ----------
 epoch 634 (valid)
 cdintra_z:0.03125    loss:4.316    lsd:4.316
@@ -5441,7 +5440,7 @@ cdintra_z:0.03125    loss:4.316    lsd:4.316
 Not saving model! Last saved: 548
 ---------------------
 epoch 635 (train) 
-cdintra_z:0.02882    loss:3.304    lsd:3.275        (00:00:11)
+cdintra_z:0.02882    loss:3.304    lsd:3.275        (00:00:10)
 ----------
 epoch 635 (valid)
 cdintra_z:0.03098    loss:4.275    lsd:4.275
@@ -5609,7 +5608,7 @@ cdintra_z:0.03075    loss:4.293    lsd:4.293
 Not saving model! Last saved: 548
 ---------------------
 epoch 656 (train) 
-cdintra_z:0.02813    loss:3.295    lsd:3.267        (00:00:11)
+cdintra_z:0.02813    loss:3.295    lsd:3.267        (00:00:10)
 ----------
 epoch 656 (valid)
 cdintra_z:0.0308    loss:4.288    lsd:4.288
@@ -5617,7 +5616,7 @@ cdintra_z:0.0308    loss:4.288    lsd:4.288
 Not saving model! Last saved: 548
 ---------------------
 epoch 657 (train) 
-cdintra_z:0.02804    loss:3.294    lsd:3.266        (00:00:11)
+cdintra_z:0.02804    loss:3.294    lsd:3.266        (00:00:10)
 ----------
 epoch 657 (valid)
 cdintra_z:0.03002    loss:4.303    lsd:4.303
@@ -5633,7 +5632,7 @@ cdintra_z:0.0294    loss:4.316    lsd:4.316
 Not saving model! Last saved: 548
 ---------------------
 epoch 659 (train) 
-cdintra_z:0.02723    loss:3.337    lsd:3.31        (00:00:11)
+cdintra_z:0.02723    loss:3.337    lsd:3.31        (00:00:10)
 ----------
 epoch 659 (valid)
 cdintra_z:0.03004    loss:4.315    lsd:4.315
@@ -5641,7 +5640,7 @@ cdintra_z:0.03004    loss:4.315    lsd:4.315
 Not saving model! Last saved: 548
 ---------------------
 epoch 660 (train) 
-cdintra_z:0.02802    loss:3.315    lsd:3.287        (00:00:11)
+cdintra_z:0.02802    loss:3.315    lsd:3.287        (00:00:10)
 ----------
 epoch 660 (valid)
 cdintra_z:0.03142    loss:4.35    lsd:4.35
@@ -5649,7 +5648,7 @@ cdintra_z:0.03142    loss:4.35    lsd:4.35
 Not saving model! Last saved: 548
 ---------------------
 epoch 661 (train) 
-cdintra_z:0.02853    loss:3.337    lsd:3.308        (00:00:11)
+cdintra_z:0.02853    loss:3.337    lsd:3.308        (00:00:10)
 ----------
 epoch 661 (valid)
 cdintra_z:0.03078    loss:4.303    lsd:4.303
@@ -5689,7 +5688,7 @@ cdintra_z:0.03106    loss:4.317    lsd:4.317
 Not saving model! Last saved: 548
 ---------------------
 epoch 666 (train) 
-cdintra_z:0.02834    loss:3.281    lsd:3.252        (00:00:11)
+cdintra_z:0.02834    loss:3.281    lsd:3.252        (00:00:10)
 ----------
 epoch 666 (valid)
 cdintra_z:0.03073    loss:4.295    lsd:4.295
@@ -5721,7 +5720,7 @@ cdintra_z:0.03074    loss:4.281    lsd:4.281
 Not saving model! Last saved: 548
 ---------------------
 epoch 670 (train) 
-cdintra_z:0.02818    loss:3.26    lsd:3.232        (00:00:11)
+cdintra_z:0.02818    loss:3.26    lsd:3.232        (00:00:10)
 ----------
 epoch 670 (valid)
 cdintra_z:0.03041    loss:4.318    lsd:4.318
@@ -5745,7 +5744,7 @@ cdintra_z:0.03091    loss:4.268    lsd:4.268
 Not saving model! Last saved: 548
 ---------------------
 epoch 673 (train) 
-cdintra_z:0.02841    loss:3.28    lsd:3.252        (00:00:11)
+cdintra_z:0.02841    loss:3.28    lsd:3.252        (00:00:10)
 ----------
 epoch 673 (valid)
 cdintra_z:0.03084    loss:4.314    lsd:4.314
@@ -5769,7 +5768,7 @@ cdintra_z:0.02961    loss:4.343    lsd:4.343
 Not saving model! Last saved: 548
 ---------------------
 epoch 676 (train) 
-cdintra_z:0.02753    loss:3.305    lsd:3.277        (00:00:11)
+cdintra_z:0.02753    loss:3.305    lsd:3.277        (00:00:10)
 ----------
 epoch 676 (valid)
 cdintra_z:0.03062    loss:4.269    lsd:4.269
@@ -5777,7 +5776,7 @@ cdintra_z:0.03062    loss:4.269    lsd:4.269
 Not saving model! Last saved: 548
 ---------------------
 epoch 677 (train) 
-cdintra_z:0.02818    loss:3.262    lsd:3.234        (00:00:11)
+cdintra_z:0.02818    loss:3.262    lsd:3.234        (00:00:10)
 ----------
 epoch 677 (valid)
 cdintra_z:0.03077    loss:4.286    lsd:4.286
@@ -5793,7 +5792,7 @@ cdintra_z:0.03    loss:4.305    lsd:4.305
 Not saving model! Last saved: 548
 ---------------------
 epoch 679 (train) 
-cdintra_z:0.02745    loss:3.255    lsd:3.228        (00:00:11)
+cdintra_z:0.02745    loss:3.255    lsd:3.228        (00:00:10)
 ----------
 epoch 679 (valid)
 cdintra_z:0.03001    loss:4.326    lsd:4.326
@@ -5801,7 +5800,7 @@ cdintra_z:0.03001    loss:4.326    lsd:4.326
 Not saving model! Last saved: 548
 ---------------------
 epoch 680 (train) 
-cdintra_z:0.02765    loss:3.262    lsd:3.235        (00:00:11)
+cdintra_z:0.02765    loss:3.262    lsd:3.235        (00:00:10)
 ----------
 epoch 680 (valid)
 cdintra_z:0.03037    loss:4.255    lsd:4.255
@@ -5811,7 +5810,7 @@ Saving figures...
 Best Loss. Saving model!
 ---------------------
 epoch 681 (train) 
-cdintra_z:0.02792    loss:3.252    lsd:3.224        (00:00:11)
+cdintra_z:0.02792    loss:3.252    lsd:3.224        (00:00:10)
 ----------
 epoch 681 (valid)
 cdintra_z:0.03024    loss:4.256    lsd:4.256
@@ -5883,7 +5882,7 @@ cdintra_z:0.02945    loss:4.37    lsd:4.37
 Not saving model! Last saved: 680
 ---------------------
 epoch 690 (train) 
-cdintra_z:0.02737    loss:3.334    lsd:3.307        (00:00:11)
+cdintra_z:0.02737    loss:3.334    lsd:3.307        (00:00:10)
 ----------
 epoch 690 (valid)
 cdintra_z:0.03079    loss:4.353    lsd:4.353
@@ -5947,7 +5946,7 @@ cdintra_z:0.03    loss:4.265    lsd:4.265
 Not saving model! Last saved: 680
 ---------------------
 epoch 698 (train) 
-cdintra_z:0.02752    loss:3.252    lsd:3.224        (00:00:11)
+cdintra_z:0.02752    loss:3.252    lsd:3.224        (00:00:10)
 ----------
 epoch 698 (valid)
 cdintra_z:0.03017    loss:4.272    lsd:4.272
@@ -5963,7 +5962,7 @@ cdintra_z:0.0303    loss:4.332    lsd:4.332
 Not saving model! Last saved: 680
 ---------------------
 epoch 700 (train) 
-cdintra_z:0.02753    loss:3.247    lsd:3.219        (00:00:11)
+cdintra_z:0.02753    loss:3.247    lsd:3.219        (00:00:10)
 ----------
 epoch 700 (valid)
 cdintra_z:0.02978    loss:4.293    lsd:4.293
@@ -5995,7 +5994,7 @@ cdintra_z:0.02982    loss:4.286    lsd:4.286
 Not saving model! Last saved: 680
 ---------------------
 epoch 704 (train) 
-cdintra_z:0.02709    loss:3.246    lsd:3.219        (00:00:11)
+cdintra_z:0.02709    loss:3.246    lsd:3.219        (00:00:10)
 ----------
 epoch 704 (valid)
 cdintra_z:0.02948    loss:4.3    lsd:4.3
@@ -6003,7 +6002,7 @@ cdintra_z:0.02948    loss:4.3    lsd:4.3
 Not saving model! Last saved: 680
 ---------------------
 epoch 705 (train) 
-cdintra_z:0.02703    loss:3.257    lsd:3.23        (00:00:11)
+cdintra_z:0.02703    loss:3.257    lsd:3.23        (00:00:10)
 ----------
 epoch 705 (valid)
 cdintra_z:0.02955    loss:4.301    lsd:4.301
@@ -6011,7 +6010,7 @@ cdintra_z:0.02955    loss:4.301    lsd:4.301
 Not saving model! Last saved: 680
 ---------------------
 epoch 706 (train) 
-cdintra_z:0.02714    loss:3.245    lsd:3.218        (00:00:11)
+cdintra_z:0.02714    loss:3.245    lsd:3.218        (00:00:10)
 ----------
 epoch 706 (valid)
 cdintra_z:0.02967    loss:4.347    lsd:4.347
@@ -6019,7 +6018,7 @@ cdintra_z:0.02967    loss:4.347    lsd:4.347
 Not saving model! Last saved: 680
 ---------------------
 epoch 707 (train) 
-cdintra_z:0.02703    loss:3.266    lsd:3.239        (00:00:11)
+cdintra_z:0.02703    loss:3.266    lsd:3.239        (00:00:10)
 ----------
 epoch 707 (valid)
 cdintra_z:0.02952    loss:4.289    lsd:4.289
@@ -6035,7 +6034,7 @@ cdintra_z:0.02929    loss:4.278    lsd:4.278
 Not saving model! Last saved: 680
 ---------------------
 epoch 709 (train) 
-cdintra_z:0.02698    loss:3.254    lsd:3.227        (00:00:11)
+cdintra_z:0.02698    loss:3.254    lsd:3.227        (00:00:10)
 ----------
 epoch 709 (valid)
 cdintra_z:0.02949    loss:4.289    lsd:4.289
@@ -6067,7 +6066,7 @@ cdintra_z:0.02977    loss:4.297    lsd:4.297
 Not saving model! Last saved: 680
 ---------------------
 epoch 713 (train) 
-cdintra_z:0.02719    loss:3.235    lsd:3.208        (00:00:11)
+cdintra_z:0.02719    loss:3.235    lsd:3.208        (00:00:10)
 ----------
 epoch 713 (valid)
 cdintra_z:0.02976    loss:4.271    lsd:4.271
@@ -6075,7 +6074,7 @@ cdintra_z:0.02976    loss:4.271    lsd:4.271
 Not saving model! Last saved: 680
 ---------------------
 epoch 714 (train) 
-cdintra_z:0.02709    loss:3.241    lsd:3.214        (00:00:11)
+cdintra_z:0.02709    loss:3.241    lsd:3.214        (00:00:10)
 ----------
 epoch 714 (valid)
 cdintra_z:0.02941    loss:4.281    lsd:4.281
@@ -6219,7 +6218,7 @@ cdintra_z:0.02963    loss:4.291    lsd:4.291
 Not saving model! Last saved: 680
 ---------------------
 epoch 732 (train) 
-cdintra_z:0.02676    loss:3.237    lsd:3.21        (00:00:11)
+cdintra_z:0.02676    loss:3.237    lsd:3.21        (00:00:10)
 ----------
 epoch 732 (valid)
 cdintra_z:0.02944    loss:4.309    lsd:4.309
@@ -6243,7 +6242,7 @@ cdintra_z:0.02998    loss:4.29    lsd:4.29
 Not saving model! Last saved: 680
 ---------------------
 epoch 735 (train) 
-cdintra_z:0.02742    loss:3.233    lsd:3.206        (00:00:11)
+cdintra_z:0.02742    loss:3.233    lsd:3.206        (00:00:10)
 ----------
 epoch 735 (valid)
 cdintra_z:0.03059    loss:4.338    lsd:4.338
@@ -6291,7 +6290,7 @@ cdintra_z:0.03079    loss:4.296    lsd:4.296
 Not saving model! Last saved: 680
 ---------------------
 epoch 741 (train) 
-cdintra_z:0.02786    loss:3.231    lsd:3.203        (00:00:11)
+cdintra_z:0.02786    loss:3.231    lsd:3.203        (00:00:10)
 ----------
 epoch 741 (valid)
 cdintra_z:0.0305    loss:4.286    lsd:4.286
@@ -6299,7 +6298,7 @@ cdintra_z:0.0305    loss:4.286    lsd:4.286
 Not saving model! Last saved: 680
 ---------------------
 epoch 742 (train) 
-cdintra_z:0.02742    loss:3.218    lsd:3.191        (00:00:11)
+cdintra_z:0.02742    loss:3.218    lsd:3.191        (00:00:10)
 ----------
 epoch 742 (valid)
 cdintra_z:0.02961    loss:4.316    lsd:4.316
@@ -6307,7 +6306,7 @@ cdintra_z:0.02961    loss:4.316    lsd:4.316
 Not saving model! Last saved: 680
 ---------------------
 epoch 743 (train) 
-cdintra_z:0.02682    loss:3.241    lsd:3.214        (00:00:11)
+cdintra_z:0.02682    loss:3.241    lsd:3.214        (00:00:10)
 ----------
 epoch 743 (valid)
 cdintra_z:0.02924    loss:4.306    lsd:4.306
@@ -6315,7 +6314,7 @@ cdintra_z:0.02924    loss:4.306    lsd:4.306
 Not saving model! Last saved: 680
 ---------------------
 epoch 744 (train) 
-cdintra_z:0.02695    loss:3.225    lsd:3.198        (00:00:11)
+cdintra_z:0.02695    loss:3.225    lsd:3.198        (00:00:10)
 ----------
 epoch 744 (valid)
 cdintra_z:0.03042    loss:4.319    lsd:4.319
@@ -6331,7 +6330,7 @@ cdintra_z:0.03108    loss:4.277    lsd:4.277
 Not saving model! Last saved: 680
 ---------------------
 epoch 746 (train) 
-cdintra_z:0.02784    loss:3.199    lsd:3.172        (00:00:11)
+cdintra_z:0.02784    loss:3.199    lsd:3.172        (00:00:10)
 ----------
 epoch 746 (valid)
 cdintra_z:0.03002    loss:4.309    lsd:4.309
@@ -6355,7 +6354,7 @@ cdintra_z:0.02957    loss:4.316    lsd:4.316
 Not saving model! Last saved: 680
 ---------------------
 epoch 749 (train) 
-cdintra_z:0.02726    loss:3.22    lsd:3.192        (00:00:11)
+cdintra_z:0.02726    loss:3.22    lsd:3.192        (00:00:10)
 ----------
 epoch 749 (valid)
 cdintra_z:0.03047    loss:4.333    lsd:4.333
@@ -6363,7 +6362,7 @@ cdintra_z:0.03047    loss:4.333    lsd:4.333
 Not saving model! Last saved: 680
 ---------------------
 epoch 750 (train) 
-cdintra_z:0.02751    loss:3.207    lsd:3.179        (00:00:11)
+cdintra_z:0.02751    loss:3.207    lsd:3.179        (00:00:10)
 ----------
 epoch 750 (valid)
 cdintra_z:0.03035    loss:4.31    lsd:4.31
@@ -6403,7 +6402,7 @@ cdintra_z:0.02978    loss:4.35    lsd:4.35
 Not saving model! Last saved: 680
 ---------------------
 epoch 755 (train) 
-cdintra_z:0.02705    loss:3.226    lsd:3.199        (00:00:11)
+cdintra_z:0.02705    loss:3.226    lsd:3.199        (00:00:10)
 ----------
 epoch 755 (valid)
 cdintra_z:0.02984    loss:4.296    lsd:4.296
@@ -6451,7 +6450,7 @@ cdintra_z:0.03093    loss:4.32    lsd:4.32
 Not saving model! Last saved: 680
 ---------------------
 epoch 761 (train) 
-cdintra_z:0.02769    loss:3.206    lsd:3.179        (00:00:11)
+cdintra_z:0.02769    loss:3.206    lsd:3.179        (00:00:10)
 ----------
 epoch 761 (valid)
 cdintra_z:0.02998    loss:4.297    lsd:4.297
@@ -6499,7 +6498,7 @@ cdintra_z:0.02959    loss:4.285    lsd:4.285
 Not saving model! Last saved: 680
 ---------------------
 epoch 767 (train) 
-cdintra_z:0.02694    loss:3.183    lsd:3.156        (00:00:11)
+cdintra_z:0.02694    loss:3.183    lsd:3.156        (00:00:10)
 ----------
 epoch 767 (valid)
 cdintra_z:0.02973    loss:4.274    lsd:4.274
@@ -6507,7 +6506,7 @@ cdintra_z:0.02973    loss:4.274    lsd:4.274
 Not saving model! Last saved: 680
 ---------------------
 epoch 768 (train) 
-cdintra_z:0.027    loss:3.184    lsd:3.157        (00:00:11)
+cdintra_z:0.027    loss:3.184    lsd:3.157        (00:00:10)
 ----------
 epoch 768 (valid)
 cdintra_z:0.02995    loss:4.281    lsd:4.281
@@ -6515,7 +6514,7 @@ cdintra_z:0.02995    loss:4.281    lsd:4.281
 Not saving model! Last saved: 680
 ---------------------
 epoch 769 (train) 
-cdintra_z:0.02711    loss:3.175    lsd:3.148        (00:00:11)
+cdintra_z:0.02711    loss:3.175    lsd:3.148        (00:00:10)
 ----------
 epoch 769 (valid)
 cdintra_z:0.03    loss:4.301    lsd:4.301
@@ -6531,7 +6530,7 @@ cdintra_z:0.03012    loss:4.289    lsd:4.289
 Not saving model! Last saved: 680
 ---------------------
 epoch 771 (train) 
-cdintra_z:0.02706    loss:3.168    lsd:3.141        (00:00:11)
+cdintra_z:0.02706    loss:3.168    lsd:3.141        (00:00:10)
 ----------
 epoch 771 (valid)
 cdintra_z:0.02949    loss:4.314    lsd:4.314
@@ -6547,7 +6546,7 @@ cdintra_z:0.029    loss:4.266    lsd:4.266
 Not saving model! Last saved: 680
 ---------------------
 epoch 773 (train) 
-cdintra_z:0.02641    loss:3.181    lsd:3.154        (00:00:11)
+cdintra_z:0.02641    loss:3.181    lsd:3.154        (00:00:10)
 ----------
 epoch 773 (valid)
 cdintra_z:0.02955    loss:4.267    lsd:4.267
@@ -6555,7 +6554,7 @@ cdintra_z:0.02955    loss:4.267    lsd:4.267
 Not saving model! Last saved: 680
 ---------------------
 epoch 774 (train) 
-cdintra_z:0.02677    loss:3.184    lsd:3.157        (00:00:11)
+cdintra_z:0.02677    loss:3.184    lsd:3.157        (00:00:10)
 ----------
 epoch 774 (valid)
 cdintra_z:0.0298    loss:4.301    lsd:4.301
@@ -6563,7 +6562,7 @@ cdintra_z:0.0298    loss:4.301    lsd:4.301
 Not saving model! Last saved: 680
 ---------------------
 epoch 775 (train) 
-cdintra_z:0.02682    loss:3.177    lsd:3.15        (00:00:11)
+cdintra_z:0.02682    loss:3.177    lsd:3.15        (00:00:10)
 ----------
 epoch 775 (valid)
 cdintra_z:0.02947    loss:4.323    lsd:4.323
@@ -6571,7 +6570,7 @@ cdintra_z:0.02947    loss:4.323    lsd:4.323
 Not saving model! Last saved: 680
 ---------------------
 epoch 776 (train) 
-cdintra_z:0.02659    loss:3.187    lsd:3.16        (00:00:11)
+cdintra_z:0.02659    loss:3.187    lsd:3.16        (00:00:10)
 ----------
 epoch 776 (valid)
 cdintra_z:0.02925    loss:4.305    lsd:4.305
@@ -6579,7 +6578,7 @@ cdintra_z:0.02925    loss:4.305    lsd:4.305
 Not saving model! Last saved: 680
 ---------------------
 epoch 777 (train) 
-cdintra_z:0.0265    loss:3.184    lsd:3.157        (00:00:11)
+cdintra_z:0.0265    loss:3.184    lsd:3.157        (00:00:10)
 ----------
 epoch 777 (valid)
 cdintra_z:0.02926    loss:4.283    lsd:4.283
@@ -6611,7 +6610,7 @@ cdintra_z:0.02861    loss:4.342    lsd:4.342
 Not saving model! Last saved: 680
 ---------------------
 epoch 781 (train) 
-cdintra_z:0.02612    loss:3.195    lsd:3.168        (00:00:11)
+cdintra_z:0.02612    loss:3.195    lsd:3.168        (00:00:10)
 ----------
 epoch 781 (valid)
 cdintra_z:0.0291    loss:4.326    lsd:4.326
@@ -6691,7 +6690,7 @@ cdintra_z:0.02947    loss:4.309    lsd:4.309
 Not saving model! Last saved: 680
 ---------------------
 epoch 791 (train) 
-cdintra_z:0.02662    loss:3.166    lsd:3.14        (00:00:11)
+cdintra_z:0.02662    loss:3.166    lsd:3.14        (00:00:10)
 ----------
 epoch 791 (valid)
 cdintra_z:0.02932    loss:4.278    lsd:4.278
@@ -6707,7 +6706,7 @@ cdintra_z:0.02906    loss:4.283    lsd:4.283
 Not saving model! Last saved: 680
 ---------------------
 epoch 793 (train) 
-cdintra_z:0.0264    loss:3.166    lsd:3.139        (00:00:11)
+cdintra_z:0.0264    loss:3.166    lsd:3.139        (00:00:10)
 ----------
 epoch 793 (valid)
 cdintra_z:0.02932    loss:4.293    lsd:4.293
@@ -6715,7 +6714,7 @@ cdintra_z:0.02932    loss:4.293    lsd:4.293
 Not saving model! Last saved: 680
 ---------------------
 epoch 794 (train) 
-cdintra_z:0.02636    loss:3.161    lsd:3.135        (00:00:11)
+cdintra_z:0.02636    loss:3.161    lsd:3.135        (00:00:10)
 ----------
 epoch 794 (valid)
 cdintra_z:0.02927    loss:4.317    lsd:4.317
@@ -6731,7 +6730,7 @@ cdintra_z:0.02898    loss:4.291    lsd:4.291
 Not saving model! Last saved: 680
 ---------------------
 epoch 796 (train) 
-cdintra_z:0.02629    loss:3.153    lsd:3.126        (00:00:11)
+cdintra_z:0.02629    loss:3.153    lsd:3.126        (00:00:10)
 ----------
 epoch 796 (valid)
 cdintra_z:0.02916    loss:4.285    lsd:4.285
@@ -6739,7 +6738,7 @@ cdintra_z:0.02916    loss:4.285    lsd:4.285
 Not saving model! Last saved: 680
 ---------------------
 epoch 797 (train) 
-cdintra_z:0.02641    loss:3.165    lsd:3.138        (00:00:11)
+cdintra_z:0.02641    loss:3.165    lsd:3.138        (00:00:10)
 ----------
 epoch 797 (valid)
 cdintra_z:0.02926    loss:4.287    lsd:4.287
@@ -6768,7 +6767,7 @@ cdintra_z:0.02572    loss:3.165    lsd:3.139        (00:00:10)
 epoch 800 (valid)
 cdintra_z:0.02841    loss:4.285    lsd:4.285
 (00:00:00)
-Saving model!
+Not saving model! Last saved: 680
 ---------------------
 epoch 801 (train) 
 cdintra_z:0.02584    loss:3.17    lsd:3.144        (00:00:10)
@@ -6859,7 +6858,7 @@ cdintra_z:0.02896    loss:4.313    lsd:4.313
 Not saving model! Last saved: 680
 ---------------------
 epoch 812 (train) 
-cdintra_z:0.02627    loss:3.174    lsd:3.148        (00:00:11)
+cdintra_z:0.02627    loss:3.174    lsd:3.148        (00:00:10)
 ----------
 epoch 812 (valid)
 cdintra_z:0.02901    loss:4.341    lsd:4.341
@@ -6867,7 +6866,7 @@ cdintra_z:0.02901    loss:4.341    lsd:4.341
 Not saving model! Last saved: 680
 ---------------------
 epoch 813 (train) 
-cdintra_z:0.02625    loss:3.17    lsd:3.144        (00:00:11)
+cdintra_z:0.02625    loss:3.17    lsd:3.144        (00:00:10)
 ----------
 epoch 813 (valid)
 cdintra_z:0.029    loss:4.306    lsd:4.306
@@ -6875,7 +6874,7 @@ cdintra_z:0.029    loss:4.306    lsd:4.306
 Not saving model! Last saved: 680
 ---------------------
 epoch 814 (train) 
-cdintra_z:0.02629    loss:3.168    lsd:3.142        (00:00:11)
+cdintra_z:0.02629    loss:3.168    lsd:3.142        (00:00:10)
 ----------
 epoch 814 (valid)
 cdintra_z:0.02906    loss:4.287    lsd:4.287
@@ -6899,7 +6898,7 @@ cdintra_z:0.02904    loss:4.292    lsd:4.292
 Not saving model! Last saved: 680
 ---------------------
 epoch 817 (train) 
-cdintra_z:0.02619    loss:3.145    lsd:3.119        (00:00:11)
+cdintra_z:0.02619    loss:3.145    lsd:3.119        (00:00:10)
 ----------
 epoch 817 (valid)
 cdintra_z:0.02888    loss:4.337    lsd:4.337
@@ -6907,7 +6906,7 @@ cdintra_z:0.02888    loss:4.337    lsd:4.337
 Not saving model! Last saved: 680
 ---------------------
 epoch 818 (train) 
-cdintra_z:0.02625    loss:3.147    lsd:3.121        (00:00:11)
+cdintra_z:0.02625    loss:3.147    lsd:3.121        (00:00:10)
 ----------
 epoch 818 (valid)
 cdintra_z:0.0292    loss:4.286    lsd:4.286
@@ -6915,7 +6914,7 @@ cdintra_z:0.0292    loss:4.286    lsd:4.286
 Not saving model! Last saved: 680
 ---------------------
 epoch 819 (train) 
-cdintra_z:0.02637    loss:3.136    lsd:3.11        (00:00:11)
+cdintra_z:0.02637    loss:3.136    lsd:3.11        (00:00:10)
 ----------
 epoch 819 (valid)
 cdintra_z:0.0291    loss:4.273    lsd:4.273
@@ -6947,7 +6946,7 @@ cdintra_z:0.02886    loss:4.312    lsd:4.312
 Not saving model! Last saved: 680
 ---------------------
 epoch 823 (train) 
-cdintra_z:0.02602    loss:3.137    lsd:3.111        (00:00:11)
+cdintra_z:0.02602    loss:3.137    lsd:3.111        (00:00:10)
 ----------
 epoch 823 (valid)
 cdintra_z:0.02872    loss:4.3    lsd:4.3
@@ -6963,7 +6962,7 @@ cdintra_z:0.02876    loss:4.284    lsd:4.284
 Not saving model! Last saved: 680
 ---------------------
 epoch 825 (train) 
-cdintra_z:0.02602    loss:3.142    lsd:3.116        (00:00:11)
+cdintra_z:0.02602    loss:3.142    lsd:3.116        (00:00:10)
 ----------
 epoch 825 (valid)
 cdintra_z:0.02872    loss:4.274    lsd:4.274
@@ -6971,7 +6970,7 @@ cdintra_z:0.02872    loss:4.274    lsd:4.274
 Not saving model! Last saved: 680
 ---------------------
 epoch 826 (train) 
-cdintra_z:0.02593    loss:3.132    lsd:3.106        (00:00:11)
+cdintra_z:0.02593    loss:3.132    lsd:3.106        (00:00:10)
 ----------
 epoch 826 (valid)
 cdintra_z:0.02872    loss:4.277    lsd:4.277
@@ -6987,7 +6986,7 @@ cdintra_z:0.02859    loss:4.301    lsd:4.301
 Not saving model! Last saved: 680
 ---------------------
 epoch 828 (train) 
-cdintra_z:0.02568    loss:3.139    lsd:3.113        (00:00:11)
+cdintra_z:0.02568    loss:3.139    lsd:3.113        (00:00:10)
 ----------
 epoch 828 (valid)
 cdintra_z:0.02824    loss:4.314    lsd:4.314
@@ -7003,7 +7002,7 @@ cdintra_z:0.02809    loss:4.311    lsd:4.311
 Not saving model! Last saved: 680
 ---------------------
 epoch 830 (train) 
-cdintra_z:0.02548    loss:3.163    lsd:3.137        (00:00:11)
+cdintra_z:0.02548    loss:3.163    lsd:3.137        (00:00:10)
 ----------
 epoch 830 (valid)
 cdintra_z:0.02838    loss:4.288    lsd:4.288
@@ -7011,7 +7010,7 @@ cdintra_z:0.02838    loss:4.288    lsd:4.288
 Not saving model! Last saved: 680
 ---------------------
 epoch 831 (train) 
-cdintra_z:0.02574    loss:3.145    lsd:3.12        (00:00:11)
+cdintra_z:0.02574    loss:3.145    lsd:3.12        (00:00:10)
 ----------
 epoch 831 (valid)
 cdintra_z:0.02881    loss:4.294    lsd:4.294
@@ -7019,7 +7018,7 @@ cdintra_z:0.02881    loss:4.294    lsd:4.294
 Not saving model! Last saved: 680
 ---------------------
 epoch 832 (train) 
-cdintra_z:0.02579    loss:3.134    lsd:3.108        (00:00:11)
+cdintra_z:0.02579    loss:3.134    lsd:3.108        (00:00:10)
 ----------
 epoch 832 (valid)
 cdintra_z:0.02842    loss:4.281    lsd:4.281
@@ -7027,7 +7026,7 @@ cdintra_z:0.02842    loss:4.281    lsd:4.281
 Not saving model! Last saved: 680
 ---------------------
 epoch 833 (train) 
-cdintra_z:0.02542    loss:3.138    lsd:3.113        (00:00:11)
+cdintra_z:0.02542    loss:3.138    lsd:3.113        (00:00:10)
 ----------
 epoch 833 (valid)
 cdintra_z:0.02767    loss:4.311    lsd:4.311
@@ -7035,7 +7034,7 @@ cdintra_z:0.02767    loss:4.311    lsd:4.311
 Not saving model! Last saved: 680
 ---------------------
 epoch 834 (train) 
-cdintra_z:0.02505    loss:3.155    lsd:3.13        (00:00:11)
+cdintra_z:0.02505    loss:3.155    lsd:3.13        (00:00:10)
 ----------
 epoch 834 (valid)
 cdintra_z:0.02795    loss:4.325    lsd:4.325
@@ -7043,7 +7042,7 @@ cdintra_z:0.02795    loss:4.325    lsd:4.325
 Not saving model! Last saved: 680
 ---------------------
 epoch 835 (train) 
-cdintra_z:0.02529    loss:3.159    lsd:3.134        (00:00:11)
+cdintra_z:0.02529    loss:3.159    lsd:3.134        (00:00:10)
 ----------
 epoch 835 (valid)
 cdintra_z:0.02863    loss:4.297    lsd:4.297
@@ -7051,7 +7050,7 @@ cdintra_z:0.02863    loss:4.297    lsd:4.297
 Not saving model! Last saved: 680
 ---------------------
 epoch 836 (train) 
-cdintra_z:0.02584    loss:3.159    lsd:3.133        (00:00:11)
+cdintra_z:0.02584    loss:3.159    lsd:3.133        (00:00:10)
 ----------
 epoch 836 (valid)
 cdintra_z:0.0287    loss:4.332    lsd:4.332
@@ -7123,7 +7122,7 @@ cdintra_z:0.02858    loss:4.285    lsd:4.285
 Not saving model! Last saved: 680
 ---------------------
 epoch 845 (train) 
-cdintra_z:0.02596    loss:3.164    lsd:3.139        (00:00:11)
+cdintra_z:0.02596    loss:3.164    lsd:3.139        (00:00:10)
 ----------
 epoch 845 (valid)
 cdintra_z:0.02882    loss:4.345    lsd:4.345
@@ -7131,7 +7130,7 @@ cdintra_z:0.02882    loss:4.345    lsd:4.345
 Not saving model! Last saved: 680
 ---------------------
 epoch 846 (train) 
-cdintra_z:0.02591    loss:3.143    lsd:3.117        (00:00:11)
+cdintra_z:0.02591    loss:3.143    lsd:3.117        (00:00:10)
 ----------
 epoch 846 (valid)
 cdintra_z:0.02916    loss:4.331    lsd:4.331
@@ -7139,7 +7138,7 @@ cdintra_z:0.02916    loss:4.331    lsd:4.331
 Not saving model! Last saved: 680
 ---------------------
 epoch 847 (train) 
-cdintra_z:0.02622    loss:3.147    lsd:3.121        (00:00:11)
+cdintra_z:0.02622    loss:3.147    lsd:3.121        (00:00:10)
 ----------
 epoch 847 (valid)
 cdintra_z:0.02902    loss:4.29    lsd:4.29
@@ -7147,7 +7146,7 @@ cdintra_z:0.02902    loss:4.29    lsd:4.29
 Not saving model! Last saved: 680
 ---------------------
 epoch 848 (train) 
-cdintra_z:0.02629    loss:3.134    lsd:3.108        (00:00:11)
+cdintra_z:0.02629    loss:3.134    lsd:3.108        (00:00:10)
 ----------
 epoch 848 (valid)
 cdintra_z:0.02909    loss:4.281    lsd:4.281
@@ -7187,7 +7186,7 @@ cdintra_z:0.02938    loss:4.311    lsd:4.311
 Not saving model! Last saved: 680
 ---------------------
 epoch 853 (train) 
-cdintra_z:0.02632    loss:3.12    lsd:3.094        (00:00:11)
+cdintra_z:0.02632    loss:3.12    lsd:3.094        (00:00:10)
 ----------
 epoch 853 (valid)
 cdintra_z:0.0289    loss:4.268    lsd:4.268
@@ -7211,7 +7210,7 @@ cdintra_z:0.02876    loss:4.31    lsd:4.31
 Not saving model! Last saved: 680
 ---------------------
 epoch 856 (train) 
-cdintra_z:0.0259    loss:3.11    lsd:3.084        (00:00:11)
+cdintra_z:0.0259    loss:3.11    lsd:3.084        (00:00:10)
 ----------
 epoch 856 (valid)
 cdintra_z:0.02891    loss:4.331    lsd:4.331
@@ -7243,7 +7242,7 @@ cdintra_z:0.02828    loss:4.298    lsd:4.298
 Not saving model! Last saved: 680
 ---------------------
 epoch 860 (train) 
-cdintra_z:0.02532    loss:3.125    lsd:3.1        (00:00:11)
+cdintra_z:0.02532    loss:3.125    lsd:3.1        (00:00:10)
 ----------
 epoch 860 (valid)
 cdintra_z:0.02815    loss:4.327    lsd:4.327
@@ -7283,7 +7282,7 @@ cdintra_z:0.0282    loss:4.304    lsd:4.304
 Not saving model! Last saved: 680
 ---------------------
 epoch 865 (train) 
-cdintra_z:0.02533    loss:3.115    lsd:3.09        (00:00:11)
+cdintra_z:0.02533    loss:3.115    lsd:3.09        (00:00:10)
 ----------
 epoch 865 (valid)
 cdintra_z:0.02818    loss:4.302    lsd:4.302
@@ -7307,7 +7306,7 @@ cdintra_z:0.02827    loss:4.292    lsd:4.292
 Not saving model! Last saved: 680
 ---------------------
 epoch 868 (train) 
-cdintra_z:0.02547    loss:3.113    lsd:3.087        (00:00:11)
+cdintra_z:0.02547    loss:3.113    lsd:3.087        (00:00:10)
 ----------
 epoch 868 (valid)
 cdintra_z:0.0281    loss:4.307    lsd:4.307
@@ -7323,7 +7322,7 @@ cdintra_z:0.02821    loss:4.303    lsd:4.303
 Not saving model! Last saved: 680
 ---------------------
 epoch 870 (train) 
-cdintra_z:0.02511    loss:3.124    lsd:3.099        (00:00:11)
+cdintra_z:0.02511    loss:3.124    lsd:3.099        (00:00:10)
 ----------
 epoch 870 (valid)
 cdintra_z:0.02809    loss:4.31    lsd:4.31
@@ -7339,7 +7338,7 @@ cdintra_z:0.02814    loss:4.328    lsd:4.328
 Not saving model! Last saved: 680
 ---------------------
 epoch 872 (train) 
-cdintra_z:0.02537    loss:3.133    lsd:3.108        (00:00:11)
+cdintra_z:0.02537    loss:3.133    lsd:3.108        (00:00:10)
 ----------
 epoch 872 (valid)
 cdintra_z:0.02831    loss:4.277    lsd:4.277
@@ -7355,7 +7354,7 @@ cdintra_z:0.028    loss:4.304    lsd:4.304
 Not saving model! Last saved: 680
 ---------------------
 epoch 874 (train) 
-cdintra_z:0.02524    loss:3.123    lsd:3.098        (00:00:11)
+cdintra_z:0.02524    loss:3.123    lsd:3.098        (00:00:10)
 ----------
 epoch 874 (valid)
 cdintra_z:0.02824    loss:4.328    lsd:4.328
@@ -7379,7 +7378,7 @@ cdintra_z:0.02812    loss:4.28    lsd:4.28
 Not saving model! Last saved: 680
 ---------------------
 epoch 877 (train) 
-cdintra_z:0.02525    loss:3.107    lsd:3.082        (00:00:11)
+cdintra_z:0.02525    loss:3.107    lsd:3.082        (00:00:10)
 ----------
 epoch 877 (valid)
 cdintra_z:0.02777    loss:4.286    lsd:4.286
@@ -7419,7 +7418,7 @@ cdintra_z:0.02776    loss:4.282    lsd:4.282
 Not saving model! Last saved: 680
 ---------------------
 epoch 882 (train) 
-cdintra_z:0.02491    loss:3.123    lsd:3.098        (00:00:11)
+cdintra_z:0.02491    loss:3.123    lsd:3.098        (00:00:10)
 ----------
 epoch 882 (valid)
 cdintra_z:0.0276    loss:4.311    lsd:4.311
@@ -7427,7 +7426,7 @@ cdintra_z:0.0276    loss:4.311    lsd:4.311
 Not saving model! Last saved: 680
 ---------------------
 epoch 883 (train) 
-cdintra_z:0.025    loss:3.108    lsd:3.083        (00:00:11)
+cdintra_z:0.025    loss:3.108    lsd:3.083        (00:00:10)
 ----------
 epoch 883 (valid)
 cdintra_z:0.0283    loss:4.363    lsd:4.363
@@ -7435,7 +7434,7 @@ cdintra_z:0.0283    loss:4.363    lsd:4.363
 Not saving model! Last saved: 680
 ---------------------
 epoch 884 (train) 
-cdintra_z:0.02545    loss:3.125    lsd:3.1        (00:00:11)
+cdintra_z:0.02545    loss:3.125    lsd:3.1        (00:00:10)
 ----------
 epoch 884 (valid)
 cdintra_z:0.02857    loss:4.309    lsd:4.309
@@ -7443,7 +7442,7 @@ cdintra_z:0.02857    loss:4.309    lsd:4.309
 Not saving model! Last saved: 680
 ---------------------
 epoch 885 (train) 
-cdintra_z:0.02561    loss:3.106    lsd:3.081        (00:00:11)
+cdintra_z:0.02561    loss:3.106    lsd:3.081        (00:00:10)
 ----------
 epoch 885 (valid)
 cdintra_z:0.02836    loss:4.271    lsd:4.271
@@ -7483,7 +7482,7 @@ cdintra_z:0.02871    loss:4.263    lsd:4.263
 Not saving model! Last saved: 680
 ---------------------
 epoch 890 (train) 
-cdintra_z:0.02583    loss:3.117    lsd:3.091        (00:00:11)
+cdintra_z:0.02583    loss:3.117    lsd:3.091        (00:00:10)
 ----------
 epoch 890 (valid)
 cdintra_z:0.02872    loss:4.289    lsd:4.289
@@ -7595,7 +7594,7 @@ cdintra_z:0.02815    loss:4.293    lsd:4.293
 Not saving model! Last saved: 680
 ---------------------
 epoch 904 (train) 
-cdintra_z:0.02528    loss:3.083    lsd:3.058        (00:00:11)
+cdintra_z:0.02528    loss:3.083    lsd:3.058        (00:00:10)
 ----------
 epoch 904 (valid)
 cdintra_z:0.0278    loss:4.303    lsd:4.303
@@ -7611,7 +7610,7 @@ cdintra_z:0.02841    loss:4.322    lsd:4.322
 Not saving model! Last saved: 680
 ---------------------
 epoch 906 (train) 
-cdintra_z:0.02533    loss:3.098    lsd:3.073        (00:00:11)
+cdintra_z:0.02533    loss:3.098    lsd:3.073        (00:00:10)
 ----------
 epoch 906 (valid)
 cdintra_z:0.02812    loss:4.297    lsd:4.297
@@ -7619,7 +7618,7 @@ cdintra_z:0.02812    loss:4.297    lsd:4.297
 Not saving model! Last saved: 680
 ---------------------
 epoch 907 (train) 
-cdintra_z:0.02518    loss:3.086    lsd:3.06        (00:00:11)
+cdintra_z:0.02518    loss:3.086    lsd:3.06        (00:00:10)
 ----------
 epoch 907 (valid)
 cdintra_z:0.0278    loss:4.31    lsd:4.31
@@ -7627,7 +7626,7 @@ cdintra_z:0.0278    loss:4.31    lsd:4.31
 Not saving model! Last saved: 680
 ---------------------
 epoch 908 (train) 
-cdintra_z:0.02516    loss:3.104    lsd:3.079        (00:00:11)
+cdintra_z:0.02516    loss:3.104    lsd:3.079        (00:00:10)
 ----------
 epoch 908 (valid)
 cdintra_z:0.02855    loss:4.318    lsd:4.318
@@ -7643,7 +7642,7 @@ cdintra_z:0.02833    loss:4.35    lsd:4.35
 Not saving model! Last saved: 680
 ---------------------
 epoch 910 (train) 
-cdintra_z:0.02525    loss:3.089    lsd:3.063        (00:00:11)
+cdintra_z:0.02525    loss:3.089    lsd:3.063        (00:00:10)
 ----------
 epoch 910 (valid)
 cdintra_z:0.02757    loss:4.301    lsd:4.301
@@ -7651,7 +7650,7 @@ cdintra_z:0.02757    loss:4.301    lsd:4.301
 Not saving model! Last saved: 680
 ---------------------
 epoch 911 (train) 
-cdintra_z:0.02491    loss:3.102    lsd:3.077        (00:00:11)
+cdintra_z:0.02491    loss:3.102    lsd:3.077        (00:00:10)
 ----------
 epoch 911 (valid)
 cdintra_z:0.02822    loss:4.267    lsd:4.267
@@ -7699,7 +7698,7 @@ cdintra_z:0.02821    loss:4.287    lsd:4.287
 Not saving model! Last saved: 680
 ---------------------
 epoch 917 (train) 
-cdintra_z:0.02522    loss:3.069    lsd:3.044        (00:00:11)
+cdintra_z:0.02522    loss:3.069    lsd:3.044        (00:00:10)
 ----------
 epoch 917 (valid)
 cdintra_z:0.02819    loss:4.296    lsd:4.296
@@ -7715,7 +7714,7 @@ cdintra_z:0.02795    loss:4.327    lsd:4.327
 Not saving model! Last saved: 680
 ---------------------
 epoch 919 (train) 
-cdintra_z:0.02501    loss:3.064    lsd:3.039        (00:00:11)
+cdintra_z:0.02501    loss:3.064    lsd:3.039        (00:00:10)
 ----------
 epoch 919 (valid)
 cdintra_z:0.02781    loss:4.304    lsd:4.304
@@ -7723,7 +7722,7 @@ cdintra_z:0.02781    loss:4.304    lsd:4.304
 Not saving model! Last saved: 680
 ---------------------
 epoch 920 (train) 
-cdintra_z:0.0249    loss:3.068    lsd:3.043        (00:00:11)
+cdintra_z:0.0249    loss:3.068    lsd:3.043        (00:00:10)
 ----------
 epoch 920 (valid)
 cdintra_z:0.02782    loss:4.268    lsd:4.268
@@ -7731,7 +7730,7 @@ cdintra_z:0.02782    loss:4.268    lsd:4.268
 Not saving model! Last saved: 680
 ---------------------
 epoch 921 (train) 
-cdintra_z:0.02501    loss:3.062    lsd:3.037        (00:00:11)
+cdintra_z:0.02501    loss:3.062    lsd:3.037        (00:00:10)
 ----------
 epoch 921 (valid)
 cdintra_z:0.028    loss:4.312    lsd:4.312
@@ -7739,7 +7738,7 @@ cdintra_z:0.028    loss:4.312    lsd:4.312
 Not saving model! Last saved: 680
 ---------------------
 epoch 922 (train) 
-cdintra_z:0.02501    loss:3.076    lsd:3.051        (00:00:11)
+cdintra_z:0.02501    loss:3.076    lsd:3.051        (00:00:10)
 ----------
 epoch 922 (valid)
 cdintra_z:0.02799    loss:4.313    lsd:4.313
@@ -7763,7 +7762,7 @@ cdintra_z:0.0278    loss:4.296    lsd:4.296
 Not saving model! Last saved: 680
 ---------------------
 epoch 925 (train) 
-cdintra_z:0.02489    loss:3.067    lsd:3.042        (00:00:11)
+cdintra_z:0.02489    loss:3.067    lsd:3.042        (00:00:10)
 ----------
 epoch 925 (valid)
 cdintra_z:0.02805    loss:4.307    lsd:4.307
@@ -7867,7 +7866,7 @@ cdintra_z:0.0279    loss:4.342    lsd:4.342
 Not saving model! Last saved: 680
 ---------------------
 epoch 938 (train) 
-cdintra_z:0.02508    loss:3.068    lsd:3.043        (00:00:11)
+cdintra_z:0.02508    loss:3.068    lsd:3.043        (00:00:10)
 ----------
 epoch 938 (valid)
 cdintra_z:0.0281    loss:4.358    lsd:4.358
@@ -7987,7 +7986,7 @@ cdintra_z:0.028    loss:4.291    lsd:4.291
 Not saving model! Last saved: 680
 ---------------------
 epoch 953 (train) 
-cdintra_z:0.02504    loss:3.05    lsd:3.025        (00:00:11)
+cdintra_z:0.02504    loss:3.05    lsd:3.025        (00:00:10)
 ----------
 epoch 953 (valid)
 cdintra_z:0.028    loss:4.3    lsd:4.3
@@ -7995,7 +7994,7 @@ cdintra_z:0.028    loss:4.3    lsd:4.3
 Not saving model! Last saved: 680
 ---------------------
 epoch 954 (train) 
-cdintra_z:0.02505    loss:3.042    lsd:3.017        (00:00:11)
+cdintra_z:0.02505    loss:3.042    lsd:3.017        (00:00:10)
 ----------
 epoch 954 (valid)
 cdintra_z:0.02793    loss:4.311    lsd:4.311
@@ -8003,7 +8002,7 @@ cdintra_z:0.02793    loss:4.311    lsd:4.311
 Not saving model! Last saved: 680
 ---------------------
 epoch 955 (train) 
-cdintra_z:0.0248    loss:3.038    lsd:3.013        (00:00:11)
+cdintra_z:0.0248    loss:3.038    lsd:3.013        (00:00:10)
 ----------
 epoch 955 (valid)
 cdintra_z:0.02783    loss:4.325    lsd:4.325
@@ -8011,7 +8010,7 @@ cdintra_z:0.02783    loss:4.325    lsd:4.325
 Not saving model! Last saved: 680
 ---------------------
 epoch 956 (train) 
-cdintra_z:0.02469    loss:3.05    lsd:3.025        (00:00:11)
+cdintra_z:0.02469    loss:3.05    lsd:3.025        (00:00:10)
 ----------
 epoch 956 (valid)
 cdintra_z:0.02739    loss:4.303    lsd:4.303
@@ -8027,7 +8026,7 @@ cdintra_z:0.02752    loss:4.291    lsd:4.291
 Not saving model! Last saved: 680
 ---------------------
 epoch 958 (train) 
-cdintra_z:0.02459    loss:3.062    lsd:3.038        (00:00:11)
+cdintra_z:0.02459    loss:3.062    lsd:3.038        (00:00:10)
 ----------
 epoch 958 (valid)
 cdintra_z:0.02791    loss:4.308    lsd:4.308
@@ -8099,7 +8098,7 @@ cdintra_z:0.02779    loss:4.292    lsd:4.292
 Not saving model! Last saved: 680
 ---------------------
 epoch 967 (train) 
-cdintra_z:0.02464    loss:3.05    lsd:3.025        (00:00:11)
+cdintra_z:0.02464    loss:3.05    lsd:3.025        (00:00:10)
 ----------
 epoch 967 (valid)
 cdintra_z:0.02734    loss:4.309    lsd:4.309
@@ -8147,7 +8146,7 @@ cdintra_z:0.02722    loss:4.307    lsd:4.307
 Not saving model! Last saved: 680
 ---------------------
 epoch 973 (train) 
-cdintra_z:0.0244    loss:3.065    lsd:3.04        (00:00:11)
+cdintra_z:0.0244    loss:3.065    lsd:3.04        (00:00:10)
 ----------
 epoch 973 (valid)
 cdintra_z:0.02788    loss:4.371    lsd:4.371
@@ -8203,7 +8202,7 @@ cdintra_z:0.02787    loss:4.305    lsd:4.305
 Not saving model! Last saved: 680
 ---------------------
 epoch 980 (train) 
-cdintra_z:0.02514    loss:3.057    lsd:3.031        (00:00:11)
+cdintra_z:0.02514    loss:3.057    lsd:3.031        (00:00:10)
 ----------
 epoch 980 (valid)
 cdintra_z:0.02867    loss:4.337    lsd:4.337
@@ -8251,7 +8250,7 @@ cdintra_z:0.02786    loss:4.301    lsd:4.301
 Not saving model! Last saved: 680
 ---------------------
 epoch 986 (train) 
-cdintra_z:0.02486    loss:3.014    lsd:2.989        (00:00:11)
+cdintra_z:0.02486    loss:3.014    lsd:2.989        (00:00:10)
 ----------
 epoch 986 (valid)
 cdintra_z:0.02799    loss:4.308    lsd:4.308
@@ -8291,7 +8290,7 @@ cdintra_z:0.02753    loss:4.32    lsd:4.32
 Not saving model! Last saved: 680
 ---------------------
 epoch 991 (train) 
-cdintra_z:0.02448    loss:3.031    lsd:3.007        (00:00:11)
+cdintra_z:0.02448    loss:3.031    lsd:3.007        (00:00:10)
 ----------
 epoch 991 (valid)
 cdintra_z:0.02754    loss:4.303    lsd:4.303
@@ -8299,7 +8298,7 @@ cdintra_z:0.02754    loss:4.303    lsd:4.303
 Not saving model! Last saved: 680
 ---------------------
 epoch 992 (train) 
-cdintra_z:0.02444    loss:3.044    lsd:3.02        (00:00:11)
+cdintra_z:0.02444    loss:3.044    lsd:3.02        (00:00:10)
 ----------
 epoch 992 (valid)
 cdintra_z:0.02768    loss:4.313    lsd:4.313
@@ -8370,7 +8369,7 @@ cdintra_z:0.02764    loss:4.352    lsd:4.352
 (00:00:00)
 Not saving model! Last saved: 680
 ---------------------
-test mode.
+Test model.
 =====================
 Loaded: outputs/model_0/hrtf_interp_ae.best.net
 HRTF_Interp_AE(
@@ -8585,6 +8584,11 @@ Saving figures...
 169 pts (spherical t-design, t=12)
 - - - - - - - -
 cdintra_z:0.03066    loss:4.122    lsd:4.122
+Saving figures...
+---------------
+196 pts (spherical t-design, t=13)
+- - - - - - - -
+cdintra_z:0.03063    loss:4.118    lsd:4.118
 Saving figures...
 ---------------
 440 pts (all)
