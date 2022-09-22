@@ -166,7 +166,7 @@ class HRTF_Interp_AE(Net):
             input: B x 4L x S tensor
                    input[*,:,*]=[real_left, imag_left, real_right, imag_right]
             srcpos: B x 3 x S tensor
-                    srcpos[*,:.*]=[radius (m), azimuth in [0,2*pi) (rad), zenith in [0,pi] (rad)]
+                    srcpos[*,:,*]=[radius (m), azimuth in [0,2*pi) (rad), zenith in [0,pi] (rad)]
         return:
             returns: (dict) 
                 output: B x 2 x L x S complex tensor, output HRTFs
