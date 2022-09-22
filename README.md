@@ -40,7 +40,7 @@ You can test our pretrained model with [a short tutorial notebook](https://githu
         └HRIRs/
     ```
 ## Test
-To test a pretrainded model,
+To test our pretrainded model,
   1. Move to `HRTFInterpAE_public`.<br>
       ```
       cd ***/***/HRTFInterpAE_public
